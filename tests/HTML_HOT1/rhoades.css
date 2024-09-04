@@ -1,0 +1,11 @@
+/*I wanted to use colors that more matched my personality, but I could not find a combination that 
+was easy to read, so I chose these because I thought they reminded me of a blueberry muffin*/
+*{
+  background-color: #E0B87E;
+  color: #484E61;
+}
+
+#wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
