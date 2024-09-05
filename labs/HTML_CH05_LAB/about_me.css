@@ -1,0 +1,47 @@
+body{
+  margin: 0 3em;
+}
+
+.name{
+  font-size: large;
+  text-shadow: 2px 2px 0 rgb(135, 0, 0);
+  text-align: center;
+  color: cornflowerblue;
+  font-family: Impact, fantasy;
+}
+
+#subhead{
+  font-family: "Segoe Script", cursive;
+  font-size: small;
+  color: rgb(135, 0, 0);
+  text-align: center;
+  background-color: rgba(104, 224, 53, 0.8);
+}
+
+footer{
+  font-family: 'Courier New', monospace;
+  border: 3px dashed coral;
+}
+
+nav>.fakes{
+  font-family: 'Times New Roman', serif;
+}
+
+.words{
+  font-family: Arial, sans-serif;
+  background-color: bisque;
+  color: indigo;
+}
+
+li{
+  list-style-type: upper-roman;
+}
+
+*[href]{
+  color: green;
+}
+
+main p:first-child::first-letter{
+  font-size: 150%;
+  font-weight: bold;
+}
