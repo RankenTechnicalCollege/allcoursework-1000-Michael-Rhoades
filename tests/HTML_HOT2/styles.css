@@ -1,0 +1,67 @@
+header{
+  background-color: pink;
+  color: black;
+}
+
+.jumbotron{
+  width: 100%;/*
+  height: 20vh;*/
+  background-image: url(images/background.jpg);
+  color: darkred;
+}
+
+.menu{
+  background-color: rgb(166, 124, 255);
+  color: forestgreen;
+}
+
+.menu a{
+  color: rgb(255, 51, 51);
+}
+
+.menu-item{
+  list-style-type: none;
+}
+.menu-details{
+  list-style-type: none;
+}
+
+.menu-name{
+  font-size: 1.2em;
+}
+
+.menu-desc{
+  font-style: italic;
+}
+
+#one{
+  background-color: cyan;
+}
+
+#two{
+  background-color: coral;
+}
+
+#three{
+  background-color: peachpuff;
+}
+
+#four{
+  background-color: tan;
+}
+
+#five{
+  background-color: honeydew;
+}
+
+.map{
+  background-color: lightsteelblue;
+  color: red;
+}
+
+footer{
+  background-color: darkslategrey;
+  color: white;
+  text-align: center;
+
+}
