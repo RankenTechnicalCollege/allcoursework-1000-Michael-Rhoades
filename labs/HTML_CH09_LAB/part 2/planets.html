@@ -1,9 +1,11 @@
+<!--THIS IS NOT MEANT TO BE GRADED-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Space Estates</title>
+  <title>Space Estates - Planets</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,20 +17,22 @@
     <nav class="navbar">
       <ul class="navbar-items">
         <li class="navbar-item"><a href="planets.html" class="navbar-link">Planets</a></li>
-        <li class="navbar-item"><a href="#" class="navbar-link">Moons</a></li>
-        <li class="navbar-item"><a href="#" class="navbar-link">Other</a></li>
-        <li class="navbar-item"><a href="#" class="navbar-link">Order</a></li>
-        <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+        <li class="navbar-item"><a href="moons.html" class="navbar-link">Moons</a></li>
+        <li class="navbar-item"><a href="other.html" class="navbar-link">Other</a></li>
+        <li class="navbar-item"><a href="order.html" class="navbar-link">Order</a></li>
+        <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
       </ul>
     </nav><br>
   </header>
-  <aside>
+  <div class="inbetween">
+  <aside class="a-shop">
     <h2 class="about-title">Planets</h2>
     <p class="about-text">
-      Planets are large round objects that orbit a star. 
+      Planets are large round objects that orbit a star. Earth is a planet. This section includes all the 
+      major planets and dwarf planets that have been pictured well enough to sell.
     </p>
   </aside>
-  <main>
+  <main class="m-shop">
     <ul class="product-list">
       <li class="product">
         <div class="product-img" style="background-image: url(images/mercury.jpg);"></div>
@@ -72,10 +76,19 @@
       </li>
       <li class="product">
         <div class="product-img" style="background-image: url(images/pluto.jpg);"></div>
-        <div class="product-name">Pluto</div>
+        <div class="product-name">Pluto (dwarf)</div>
         <div class="product-price">$85k</div>
+      </li>
+      <li class="product">
+        <div class="product-img" style="background-image: url(images/ceres.jpg);"></div>
+        <div class="product-name">Ceres (dwarf)</div>
+        <div class="product-price">$65k</div>
       </li>
     </ul>
   </main>
+  </div>
+  <footer>
+    <p>&copy;2024 Space Estates</p>
+  </footer>
 </body>
 </html>
