@@ -1,0 +1,176 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px 15px;
+  border: 2px solid blue;
+  background-color: lightblue;
+}
+
+.navbar li{
+  padding: 5px 20px;
+}
+
+.navbar-link{
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  background-color: cadetblue;
+  border: 2px solid darkblue;
+}
+
+.navbar-link:hover, .navbar-link:focus{
+  background-color: rgb(135, 199, 201);
+}
+
+.logo-image{
+  height: 100px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  
+}
+
+.logo-name{
+  font-size: 30px;
+  color: red;
+}
+
+.logo-tagline{
+  font-size: 20px;
+  color: coral;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.headshot{
+  flex-basis: 30%;
+  margin: 5px 10px 5px 5px;
+  padding: 5px;
+  align-self: center;
+  justify-self: center;
+}
+
+.headshot-image{
+  width: 300px;
+}
+
+.page{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+  padding: 0 20px;
+}
+
+.main-edu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edu-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-item{
+  list-style-type: none;
+}
+
+.edu-image{
+  height: 100px;
+  width: 100px;
+}
+
+footer{
+  background-color: gray;
+  margin: 5px;
+}
+
+.info{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+.copyright{
+  align-self: flex-end;
+}
+
+@media only screen and (min-width: 600px){
+.logo-image{
+  height: 200px;
+}
+}
+
+@media only screen and (min-width: 900px){
+  .logo-image{
+    height: 300px;
+  }
+  .navbar{
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .logo-image{
+    height: 100px;
+  }
+  nav{
+    order: 2;
+  }
+  header{
+    order: 1;
+    flex-direction: row;
+  }
+  main{
+    flex-direction: row;
+    order: 3;
+  }
+  .main-edu{
+    flex-direction: row;
+  }
+  footer{
+    order: 4;
+  }
+}
+
+@media only screen and (min-width: 2500px){
+  .headshot-image{
+    width: 500px;
+  }
+  .navbar{
+    justify-content: center;
+  }
+}
