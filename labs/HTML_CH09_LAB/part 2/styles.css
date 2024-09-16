@@ -38,28 +38,30 @@ body{
 .navbar-items{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  margin: 0;
+  align-items: center;
+  list-style-type: none;
+  margin: 5px;
   padding: 5px 15px;
+  border: 2px solid rgb(75, 75, 75);
   background-color: black;
 }
 
-.navbar-item{
-  border: 2px solid rgb(75, 75, 75);
-  padding: 5px 30%;
-}
-
-.navbar-item:hover, .navbar-item:focus{
-  background-color: cadetblue;
+.navbar li{
+  padding: 5px 20px;
 }
 
 .navbar-link{
   text-decoration: none;
-  list-style-type: none;
   color: rgb(200, 200, 200);
+  padding: 5px 15px;
+  background-color: rgb(75, 75, 75);
+  border: 2px solid rgb(200, 200, 200);
 }
 
+.navbar-link:hover, .navbar-link:focus{
+  background-color: cadetblue;
+}
 
 aside{
   flex-direction: column;
@@ -163,6 +165,11 @@ footer{
   list-style-type: none;
 }
 
+#sold-out{
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
 
 @media only screen and (min-width: 600px){
   .logo-text{
@@ -171,7 +178,7 @@ footer{
 }
 
 @media only screen and (min-width: 900px){
-  .navbar-item{
+  .navbar-link{
     padding: 5px 250px;
   }
 }
@@ -193,8 +200,8 @@ footer{
   .content{
     flex-direction: row;
   }
-  .navbar-item{
-    padding: 5px 5%;
+  .navbar-link{
+    padding: 5px 50px;
   }
   .a-shop{
     flex-basis: 20%;
@@ -214,3 +221,4 @@ footer{
     font-size: 45px;
   }
 }
+*/
