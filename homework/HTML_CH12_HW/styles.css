@@ -1,0 +1,21 @@
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th,td{
+  border: 1px solid black;
+  padding: .2em .7em;
+}
+
+thead,tfoot,.alt{
+  background-color: yellow;
+}
+
+.right{
+  text-align: right;
+}
+
+.dept{
+  background-color: white;
+}
