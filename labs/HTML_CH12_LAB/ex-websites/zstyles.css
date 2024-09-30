@@ -1,0 +1,21 @@
+
+.car-img{
+  height: 550px;
+}
+
+.theory{
+  color: chartreuse;
+  font-style: italic;
+}
+
+#car-link h5{
+  background-color: green;
+}
+
+#car-link p{
+  background-color: green;
+}
+
+#car-zelda p{
+  background-color: blue;
+}
