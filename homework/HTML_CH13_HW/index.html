@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form>
+    <p>Name: <br><input type="text" id="xname" placeholder="your name"></p>
+    <p>E-Mail: <br><input type="email" id="xemail" placeholder="your e-mail"></p>
+    <fieldset>
+      <legend>Select your favorite types of music</legend>
+      <input type="checkbox" name="genre1" id="genre1" value="pop">
+      <label for="genre1">Pop</label><br>
+      <input type="checkbox" name="genre2" id="genre2" value="classical">
+      <label for="genre2">Classical</label><br>
+      <input type="checkbox" name="genre3" id="genre3" value="rock">
+      <label for="genre3">Rock</label><br>
+      <input type="checkbox" name="genre4" id="genre4" value="folk">
+      <label for="genre4">Folk</label><br>
+      <input type="checkbox" name="genre5" id="genre5" value="rap">
+      <label for="genre5">Rap</label><br>
+      <input type="checkbox" name="genre6" id="genre6" value="other">
+      <label for="genre6">Other</label><br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Select how often you purchase music CDs</legend>
+      <input type="radio" name="cds" id="cds1" value="weekly">
+      <label for="cds1">Weekly</label><br>
+      <input type="radio" name="cds" id="cds2" value="monthly">
+      <label for="cds1">Monthly</label><br>
+      <input type="radio" name="cds" id="cds3" value="rarely">
+      <label for="cds1">A few CDs a year</label><br>
+      <input type="radio" name="cds" id="cds4" value="never">
+      <label for="cds1">Never Purchase</label><br>
+    </fieldset>
+    <br>
+    Where do you listen to music?<br>
+    <select id="location" size="3" multiple>
+      <option value="home">At home</option>
+      <option value="car">In the car</option>
+      <option value="anywhere">Anywhere</option>
+      <option value="concerts">Concerts</option>
+    </select>
+    <p>What role does music play in your life? <br>
+      <textarea id="xrole" rows="3" cols="60" placeholder="enter text"></textarea>
+    </p>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  <br>
+  <footer>
+    <p>Michael Rhoades</p>
+    <p>E-Mail: <a href="mailto:michaeltrhoades42@gmail.com">michaeltrhoades42@gmail.com</a></p>
+  </footer>
+</body>
+</html>
