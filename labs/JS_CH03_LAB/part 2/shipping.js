@@ -1,23 +1,21 @@
 "use strict";
 
 let prePrice = document.querySelector("#prePrice");
-prePrice.value = parseInt(0);
-let shipping = parseInt(0);
+prePrice.value = 0;
+let shipping = 0;
 
 document.getElementById('calc').onclick = () => {
-  prePrice = prePrice.value;
-  prePrice = parseFloat(prePrice);
+  let price = parseFloat(prePrice.value);
 
-  if (prePrice <= 25) {
+  if (price <= 25) {
     shipping = parseFloat(1.50);
-    prePrice = parseFloat(prePrice + shipping).toFixed(2);
-    alert("Total cost is $" + prePrice);
+    price = parseFloat(price + shipping).toFixed(2);
+    alert("Total cost is $" + price);
   }
-  else if (prePrice > 25) {
-    shipping = parseFloat(prePrice * 10 / 100);
-    prePrice = parseFloat(prePrice + shipping).toFixed(2);
-    alert("Total cost is $" + prePrice);
-    prePrice.value = parseInt(0);
+  else if (price > 25) {
+    shipping = parseFloat(price * 10 / 100);
+    price = parseFloat(price + shipping).toFixed(2);
+    alert("Total cost is $" + price);
   }
   else {
     alert("The entry needs to be a number");
