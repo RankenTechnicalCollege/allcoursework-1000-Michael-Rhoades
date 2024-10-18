@@ -1,36 +1,24 @@
 "use strict";
 
-const $ = selector => document.querySelector(selector);
+let burgers = document.querySelector("#burgers");
+burgers.value = parseFloat(0);
+let fries = document.querySelector("#fries");
+fries.value = parseFloat(0);
+let sodas = document.querySelector("#sodas");
+sodas.value = parseFloat(0);
+let total = document.querySelector("#total");
+total.value = parseFloat(0);
+let totalCost = 0;
 
-const getErrorMsg = lbl => `${lbl} must be a valid integer of 0 or greater`;
+document.getElementById('order').onclick = () => {
+  let burgerCost = parseFloat(burgers.value);
+  let fryCost = parseFloat(fries.value);
+  let sodaCost = parseFloat(sodas.value);
 
-const focusAndSelect = selector => {
-  const elem = $(selector);
-  elem.focus();
-  elem.select();
+  totalCost = parseFloat(0);
+  burgerCost = parseFloat(burgerCost * 1);
+  fryCost = parseFloat(fryCost * 2);
+  sodaCost = parseFloat(sodaCost * 2.5);
+  totalCost = parseFloat(burgerCost + fryCost + sodaCost).toFixed(2);
+  total.value = totalCost;
 }
-
-const processEntries = () => {
-  const burgers = parseInt($("#burgers").value);
-  const fries = parseInt($("#fries").value) * 2;
-  const sodas = parseInt($("#sodas").value) * 2.5;
-
-  if (isNaN(burgers) || burgers < 0) {
-    alert(getErrorMsg("Burgers ordered"));
-    focusAndSelect("#burgers")
-  } else if (isNaN(fries) || fries < 0) {
-    alert(getErrorMsg("Fries ordered"));
-    focusAndSelect("#fries")
-  } else if (isNaN(sodas) || sodas < 0) {
-    alert(getErrorMsg("Sodas ordered"));
-    focusAndSelect("#sodas")
-  } else {
-    $("#total").value = (burgers + fries + sodas).toFixed(2);
-  }
-};
-
-document.addEventListener("DOMContentLoaded", () => {
-  $("#order").addEventListener("click", processEntries);
-  $("#burgers").focus;
-});
-
