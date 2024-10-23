@@ -7,19 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Radley|Inter">
-  <style>
-    h1, h2, h3, .ser{
-      font-family: Radley, 'Times New Roman', serif;
-    }
-    p{
-      font-family: Inter, Arial, sans-serif;
-    }
-  </style>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand ser" href="index.html"><img src="images/ctclogo.jpg" alt="Connecting Through Charity logo" height="25">Connecting Through Charity</a>
+      <a class="navbar-brand ser" href="index.html"><img src="images/ctclogo.png" alt="Connecting Through Charity logo" height="25">Connecting Through Charity</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,9 +39,13 @@
     </div>
   </nav>
   <header>
-
+    <h1 class="shadow p-5 mb-5 text-center textShadow j-tron">Connecting Through Charity</h1>
   </header>
   <main>
+    <div class="m-statement p-5 text-center">
+      <h3>Mission Statement</h3>
+      <p>Connecting Through Charity provides year-round giving to the local community to help children, families, and individuals in need overcome hardship.</p>
+    </div>
     <div class="car-home">
       <div id="carouselHome" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
@@ -57,13 +55,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/ct_care_bags.jpg" class="d-block w-100" alt="..." height="600">
+            <img src="images/car-ctc_gift_bags.jpg" class="d-block w-100" alt="Easter bags to be given out">
           </div>
           <div class="carousel-item">
-            <img src="images/ctc_blessing_bags.jpg" class="d-block w-100" alt="..." height="600">
+            <img src="images/car-ctc_halloween.jpg" class="d-block w-100" alt="Halloween bags to be given out">
           </div>
           <div class="carousel-item">
-            <img src="images/ctc_raffle_basket_winner.jpg" class="d-block w-100" alt="..." height="600">
+            <img src="images/car-ctc_school_supplies.jpg" class="d-block w-100" alt="School supplies to be given to students">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
@@ -76,18 +74,21 @@
         </button>
       </div>
     </div>
-    <div class="m-statement">
-      <h3>Mission Statement</h3>
-      <p>Connecting Through Charity provides year-round giving to the local community to help children, families, and individuals in need overcome hardship.</p>
-    </div>
-    <div class="v-statement">
+    <div class="v-statement py-5 text-center">
       <h3>Vision Statement</h3>
       <p>Staying connected in the local community to positively impact the life of others.</p>
     </div>
-    <div class="p-statement">
+    <div class="p-statement p-5">
       <h3>Projects</h3>
-      <p>Some of the projects we do: Make Blessing Bags for the homeless, provide Christmas gifts to families in need within our local school districts, providing Easter Baskets to families for their children, we adopted a teacher and her classroom this year for the first time, we have provided the food for families to make a Thanksgiving dinner.
-      <br>We are continuously adding new projects.</p>
+      <p>Some of the projects we do: </p>
+      <ul class="ms-3">
+        <li>Make Blessing Bags for the homeless</li>
+        <li>Provide Christmas gifts to families in need within our local school districts</li>
+        <li>Providing Easter Baskets to families for their children</li>
+        <li>We adopted a teacher and her classroom this year for the first time</li>
+        <li>We have provided the food for families to make a Thanksgiving dinner</li>
+      </ul>
+      <p>We are continuously adding new projects.</p>
     </div>
   </main>
   <footer class="d-flex justify-content-center p-3">
@@ -97,18 +98,4 @@
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-</html><!--
-
-To-do: 
-Headers - 1.5h
-change carousel images(make them horizontal) or shrink carousel - 30m
-add images to the cards - 45m
-make the donations form - 30m
-embed the calender - 1m
-determine how the contact form needs to be set up and make it - 1h
-
-additional things to do:
-turn the logo into a png
-adjust colors
-
--->
+</html>

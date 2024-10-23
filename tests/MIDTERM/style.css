@@ -1,12 +1,25 @@
-/*
-.m-statement{
-
+h1, h2, h3, .ser{
+  font-family: Radley, 'Times New Roman', serif;
 }
 
-.v-statement{
-
+p{
+  font-family: Inter, Arial, sans-serif;
 }
 
-.p-statement{
+.textShadow{
+  text-shadow: 2px 2px 5px lightslategray;
+}
 
+.j-tron{
+  font-size: 5em;
+  background-color: rgb(3, 2, 243);
+  color: white;
+}
+
+.car-home{
+  margin: 0 15%;
+}
+
+footer{
+  background-color: rgb(3, 2, 243);
 }
