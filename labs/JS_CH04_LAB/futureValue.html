@@ -6,8 +6,28 @@
   <title>Future Value Calculator</title>
 </head>
 <body>
-  
+  <main>
+    <h1>The Future Value Calculator</h1>
 
+    <div>
+      <label for="investment">Total Investment:</label>
+      <input type="text" name="investment" id="investment">
+    </div>
+    <div>
+      <label for="rate">Annual Interest Rate:</label>
+      <input type="text" name="rate" id="rate">
+    </div>
+    <div>
+      <label for="years">Number of Years:</label>
+      <input type="text" name="years" id="years">
+    </div>
+    <div>
+      <label for="futureValue">Future Value:</label>
+      <input type="text" name="futureValue" id="futureValue" disabled>
+    </div>
+    <label for="calculate">&nbsp;</label>
+    <button type="submit" id="calculate">Calculate Future Value</button>
+  </main>
   <script src="FVCalc.js"></script>
 </body>
 </html>
