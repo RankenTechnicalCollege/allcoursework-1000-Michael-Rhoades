@@ -29,19 +29,19 @@ const calculateIncomeTax = () => {
       incomeRem = incomeRem - 9875;
       incomeTax = 987.5 + (incomeRem * 0.12);
     } else if (income <= 85525) {
-      incomeRem = incomeRem - 9875 - 40125;
+      incomeRem = incomeRem - 40125;
       incomeTax = 4617.5 + (incomeRem * 0.22);
     } else if (income <= 163300) {
-      incomeRem = incomeRem - 9875 - 40125 - 85525;
+      incomeRem = incomeRem - 85525;
       incomeTax = 14605.5 + (incomeRem * 0.24);
     } else if (income <= 207350) {
-      incomeRem = incomeRem - 9875 - 40125 - 85525 - 163300;
+      incomeRem = incomeRem - 163300;
       incomeTax = 33271.5 + (incomeRem * 0.32);
     } else if (income <= 518400) {
-      incomeRem = incomeRem - 9875 - 40125 - 85525 - 163300 - 207350;
+      incomeRem = incomeRem - 207350;
       incomeTax = 47367.5 + (incomeRem * 0.35);
     } else if (income > 518400) {
-      incomeRem = incomeRem - 9875 - 40125 - 85525 - 163300 - 207350 - 518400;
+      incomeRem = incomeRem - 518400;
       incomeTax = 156235 + (incomeRem * 0.37);
     }
 
