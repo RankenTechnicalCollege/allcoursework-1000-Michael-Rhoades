@@ -44,7 +44,7 @@ const processEntries = () => {
         console.log("The data is valid and the calculation is next");
         const mpg = miles / gallons;
         console.log("mpg = " + mpg);
-        $("#mpg").value = mpg.toFixed(2);
+        $("#mpg").value = mpg.toFixed(1);
     } else {
         alert(errorMessage);
     }
