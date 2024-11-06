@@ -1,21 +1,21 @@
 "use strict";
 
 const toggle = evt => {
-  const h2Element = evt.currentTarget;
-  const divElement = h2Element.nextElementSibling;
+  const aElement = evt.currentTarget;
+  const divElement = aElement.parentNode.nextElementSibling;
 
-  h2Element.classList.toggle("minus");
+  aElement.classList.toggle("minus");
   divElement.classList.toggle("open");
 
   evt.preventDefault();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const h2Elements = document.querySelectorAll("#faqs h2");
+  const aElements = document.querySelectorAll("#faqs a");
 
-  for (let h2Element of h2Elements) {
-    h2Element.addEventListener("click", toggle);
+  for (let aElement of aElements) {
+    aElement.addEventListener("click", toggle);
   }
 
-  h2Elements[0].firstChild.focus();
+  aElements[0].focus();
 })

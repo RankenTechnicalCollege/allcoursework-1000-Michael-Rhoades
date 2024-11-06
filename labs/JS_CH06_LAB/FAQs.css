@@ -8,20 +8,19 @@ a:focus, a:hover{
   color: blue;
 }
 
-h2{
+a{
   cursor: pointer;
   background: url(images/plus.png) no-repeat left center;
   padding-left: 25px;
 }
 
-h2.minus {
+a.minus {
   background: url(images/minus.png) no-repeat left center;
 }
 
 div{
   display: none;
   padding-left: 25px;
-
 }
 
 div.open{
