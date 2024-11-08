@@ -8,13 +8,13 @@ const toggle = evt => {
   //divElement.classList.toggle("open");
 
   if (aElement.hasAttribute("class")) {
-    aElement.removeElement("class");
+    aElement.removeAttribute("class");
   } else {
     aElement.className = "minus";
   }
 
   if (divElement.hasAttribute("class")) {
-    divElement.removeElement("class");
+    divElement.removeAttribute("class");
   } else {
     divElement.className = "open";
   }

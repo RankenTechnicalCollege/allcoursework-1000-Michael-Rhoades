@@ -29,6 +29,7 @@ const processEntries = () => {
   const phone = $("#phone");
   const country = $("#country");
   const terms = $("#terms");
+  const comments = $("#comments")
 
   const msgs = [];
 
@@ -41,11 +42,15 @@ const processEntries = () => {
   if (country.value == "") {
     msgs[msgs.length] = "Please select a country.";
   }
-  if (terms.checked == true) {
+  if (terms.checked == false) {
     msgs[msgs.length] = "You must agree to the terms of service.";
   }
+  if (comments.value == "") {
+    msgs[msgs.length] = "Please give a comment.";
+  }
 
-  if (msgs.length = 0) {
+
+  if (msgs.length == 0) {
     $("form").submit();
   } else {
     displayErrorMsgs(msgs)
