@@ -11,30 +11,36 @@ document.addEventListener("DOMContentLoaded", () => {
         const firstName = $("#first_name");
     
         // create an error message and set it to an empty string
-        let errorMessage = "";
+        let anyErrors = false;
 
         // check user entries - add text to error message if invalid
         if (email1.value == "") { 
-            errorMessage += "First email is required.\n";
+            email1.nextElementSibling.textContent = "First email is required.";
+            anyErrors = true;
+        } else {
+            email1.nextElementSibling.textContent = "";
         }
     
         if (email2.value == "") { 
-            errorMessage += "Second email is required.\n";
-        }
-    
-        if (email1.value != email2.value) { 
-            errorMessage += "Both emails must match.\n";
+            email2.nextElementSibling.textContent = "Second email is required.";
+            anyErrors = true;
+        } else if (email1.value != email2.value) { 
+            email2.nextElementSibling.textContent = "Both emails must match.";
+            anyErrors = true;
+        } else {
+            email2.nextElementSibling.textContent = "";
         }
     
         if (firstName.value == "") {
-            errorMessage += "First name is required.\n";
+            firstName.nextElementSibling.textContent = "First name is required.";
+            anyErrors = true;
+        } else {
+            firstName.nextElementSibling.textContent = "";
         }
     
         // submit the form if error message is an empty string
-        if (errorMessage == "") {
+        if (anyErrors == false) {
             $("#email_form").submit();
-        } else {
-            alert(errorMessage);            
         }
     });
 
