@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     $("#convert").addEventListener("click", () => {
-      const tempValue = parseFloat($("#inDegrees"));
+      const tempValue = parseFloat($("#inDegrees").value);
       let outDegrees = 0;
       let error = $("#error");
 

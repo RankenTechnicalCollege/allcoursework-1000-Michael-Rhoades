@@ -1,0 +1,11 @@
+h1,h2{
+  color: blue;
+}
+
+.error{
+  color: red;
+}
+
+ul{
+  list-style-type: none;
+}
