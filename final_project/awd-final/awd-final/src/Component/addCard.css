@@ -1,0 +1,12 @@
+#addCard{
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px 5px grey;
+  border: thin solid black;
+  padding: 5em;
+  color: green;
+}
+
+li{
+  color: blue;
+  
+}
