@@ -2301,6 +2301,2953 @@ function App() {
       type: "Attack",
       image: "brothers-in-arms-achilles.png",
       cardName: "Brothers in Arms"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Scheme",
+      image: "wheres-my-money-luke-cage.png",
+      cardName: "Where's My Money?"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Defense",
+      image: "skin-like-titanium-luke-cage.png",
+      cardName: "Skin Like Titanium"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Defense",
+      image: "got-my-back-luke-cage.png",
+      cardName: "Got My Back?"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Defense",
+      image: "power-man-luke-cage.png",
+      cardName: "Power Man"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Defense",
+      image: "trash-talk-luke-cage.png",
+      cardName: "Trash Talk"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Versatile",
+      image: "regroup-luke-cage.png",
+      cardName: "Regroup"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Versatile",
+      image: "daughter-of-the-dragon-luke-cage.png",
+      cardName: "Daughter of the Dragon"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Versatile",
+      image: "pushback-luke-cage.png",
+      cardName: "Pushback"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Attack",
+      image: "hero-for-hire-luke-cage.png",
+      cardName: "Hero for Hire"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Attack",
+      image: "still-standing-luke-cage.png",
+      cardName: "Still Standing"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Attack",
+      image: "get-paid-luke-cage.png",
+      cardName: "Get Paid"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Attack",
+      image: "commanding-impact-luke-cage.png",
+      cardName: "Commanding Impact"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Luke Cage",
+      type: "Attack",
+      image: "sweet-christmas-luke-cage.png",
+      cardName: "Sweet Christmas!"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Scheme",
+      image: "madness-will-keep-you-alive-moon-knight.png",
+      cardName: "Madness will keep you alive"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Scheme",
+      image: "travelers-of-the-night-moon-knight.png",
+      cardName: "Travelers of the Night"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Defense",
+      image: "were-all-in-this-together-moon-knight.png",
+      cardName: "We're all in this together"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "let-your-insanity-guide-you-moon-knight.png",
+      cardName: "Let your insanity guide you"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "feint-moon-knight.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "past-and-present-intermingle-moon-knight.png",
+      cardName: "Past and present intermingle"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "a-totally-sane-thing-to-do-moon-knight.png",
+      cardName: "A totally sane thing to do"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "fist-of-khonshu-moon-knight.png",
+      cardName: "Fist of Khonshu"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "thats-the-part-i-like-moon-knight.png",
+      cardName: "That's the part I like"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Versatile",
+      image: "good-enough-for-us-moon-knight.png",
+      cardName: "Good enough for us"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Attack",
+      image: "thats-why-i-always-win-moon-knight.png",
+      cardName: "That's why I always win"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Scheme",
+      image: "chains-of-hellfire-ghost-rider.png",
+      cardName: "Chains of Hellfire"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Scheme",
+      image: "hell-rides-with-me-ghost-rider.png",
+      cardName: "Hell rides with me"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Defense",
+      image: "stoke-the-flames-ghost-rider.png",
+      cardName: "Stoke the flames"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Defense",
+      image: "deal-with-the-devil-ghost-rider.png",
+      cardName: "Deal with the Devil"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Versatile",
+      image: "control-the-demon-ghost-rider.png",
+      cardName: "Control the Demon"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Versatile",
+      image: "feint-ghost-rider.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Versatile",
+      image: "the-wicked-will-burn-ghost-rider.png",
+      cardName: "The Wicked will burn"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Versatile",
+      image: "i-finally-escaped-hell-ghost-rider.png",
+      cardName: "I finally escaped Hell"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Versatile",
+      image: "penance-stare-ghost-rider.png",
+      cardName: "Penance Stare"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Attack",
+      image: "blaze-of-glory-ghost-rider.png",
+      cardName: "Blaze of glory"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Attack",
+      image: "i-brought-the-devil-with-me-ghost-rider.png",
+      cardName: "I brought the Devil with me"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Ghost Rider",
+      type: "Attack",
+      image: "spirit-of-vengeance-ghost-rider.png",
+      cardName: "Spirit of Vengance"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Scheme",
+      image: "through-adversity-daredevil.png",
+      cardName: "Through adversity"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Scheme",
+      image: "breather-daredevil.png",
+      cardName: "Breather"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Defense",
+      image: "son-of-a-boxer-daredevil.png",
+      cardName: "Son of a boxer"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Versatile",
+      image: "feint-daredevil.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Versatile",
+      image: "grappling-hook-daredevil.png",
+      cardName: "Grappling Hook"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Versatile",
+      image: "take-a-knee-daredevil.png",
+      cardName: "Take a knee"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Attack",
+      image: "man-without-fear-daredevil.png",
+      cardName: "Man without fear"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Daredevil",
+      type: "Attack",
+      image: "devil-of-hells-kitchen-daredevil.png",
+      cardName: "Devil of Hell's Kitchen"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Scheme",
+      image: "mesmerize-elektra.png",
+      cardName: "Mesmerize"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Defense",
+      image: "snakeroot-clan-elektra.png",
+      cardName: "Snakeroot Clan"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Defense",
+      image: "intercept-elektra.png",
+      cardName: "Intercept"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Versatile",
+      image: "whirlwind-elektra.png",
+      cardName: "Whirlwind"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Versatile",
+      image: "cloaked-in-shadow-elektra.png",
+      cardName: "Cloaked in shadow"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Versatile",
+      image: "ninjitsu-elektra.png",
+      cardName: "Ninjitsu"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Versatile",
+      image: "sai-elektra.png",
+      cardName: "Sai"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Attack",
+      image: "the-fist-elektra.png",
+      cardName: "The Fist"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Attack",
+      image: "hands-of-red-elektra.png",
+      cardName: "Hands of Red"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Elektra",
+      type: "Attack",
+      image: "mystic-assassin-elektra.png",
+      cardName: "Mystic Assassin"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Scheme",
+      image: "study-the-target-bullseye.png",
+      cardName: "Study the target"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Defense",
+      image: "tactical-retreat-bullseye.png",
+      cardName: "Tactical retreat"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
+      image: "feint-bullseye.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
+      image: "arrogant-but-effective-bullseye.png",
+      cardName: "Arrogant but effective"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
+      image: "im-better-and-ill-prove-it-bullseye.png",
+      cardName: "I'm better and I'll prove it"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
+      image: "master-strategist-bullseye.png",
+      cardName: "Master strategist"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
+      image: "ricochet-bullseye.png",
+      cardName: "Ricochet"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Attack",
+      image: "i-planned-to-be-here-bullseye.png",
+      cardName: "I planned to be here"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Attack",
+      image: "for-my-next-trick-bullseye.png",
+      cardName: "For my next trick"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Attack",
+      image: "i-never-miss-bullseye.png",
+      cardName: "I never miss"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Attack",
+      image: "worlds-greatest-assassin-bullseye.png",
+      cardName: "World's Greatest Assassin"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Scheme",
+      image: "the-future-ex-mrs-malcolm-dr-sattler.png",
+      cardName: "The Future Ex-Mrs. Malcolm"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Defense",
+      image: "lock-the-doors-dr-sattler.png",
+      cardName: "Lock the doors"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Defense",
+      image: "the-concept-of-attraction-dr-sattler.png",
+      cardName: "The Concept of Attraction"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "i-think-were-back-in-business-dr-sattler.png",
+      cardName: "I think we're back in business"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "sexism-in-survival-situations-dr-sattler.png",
+      cardName: "Sexism in survival situations"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "regroup-dr-sattler.png",
+      cardName: "Regroup"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "woman-inherits-the-earth-dr-sattler.png",
+      cardName: "Woman inherits the Earth"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "life-finds-a-way-dr-sattler.png",
+      cardName: "Life finds a way"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "chaotician-dr-sattler.png",
+      cardName: "Chaotician"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "feint-dr-sattler.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "violently-if-necessary-dr-sattler.png",
+      cardName: "Violently if necessary"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "must-go-faster-dr-sattler.png",
+      cardName: "Must go faster"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Versatile",
+      image: "hey-hey-hey-dr-sattler.png",
+      cardName: "Hey! Hey! Hey!"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "Dr. Ellie Sattler",
+      type: "Attack",
+      image: "you-never-had-control-thats-the-illusion-dr-sattler.png",
+      cardName: "You never had control, that's the ilussion"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Scheme",
+      image: "closer-than-she-appears-t-rex.png",
+      cardName: "Closer than she appears"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Scheme",
+      image: "65-million-years-of-gut-instinct-t-rex.png",
+      cardName: "65 Million years of gut instinct"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Scheme",
+      image: "ripples-in-the-water-t-rex.png",
+      cardName: "Ripples in the water"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Defense",
+      image: "youre-just-making-her-angry-t-rex.png",
+      cardName: "You're just making her angry"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Versatile",
+      image: "thrash-t-rex.png",
+      cardName: "Thrash"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Versatile",
+      image: "terrifying-roar-t-rex.png",
+      cardName: "Terrifying roar"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Versatile",
+      image: "momentous-shift-t-rex.png",
+      cardName: "Momentous shift"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Attack",
+      image: "when-dinosaurs-ruled-the-earth-t-rex.png",
+      cardName: "When dinosaurs ruled the earth"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Attack",
+      image: "reckless-lunge-t-rex.png",
+      cardName: "Reckless lunge"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Attack",
+      image: "15000-pounds-of-muscle-t-rex.png",
+      cardName: "15,000 pounds of muscle"
+    }, {
+      id: nanoid(),
+      set: "Sattler vs. T-Rex",
+      hero: "T-Rex",
+      type: "Attack",
+      image: "commanding-impact-t-rex.png",
+      cardName: "Commanding impact"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Versatile",
+      image: "misdirection-houdini.png",
+      cardName: "Misdirection"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Scheme",
+      image: "set-the-stage-houdini.png",
+      cardName: "Set the stage"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Versatile",
+      image: "and-the-beautiful-bess-houdini.png",
+      cardName: "And the Beautiful Bess"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Defense",
+      image: "all-part-of-the-show-houdini.png",
+      cardName: "All part of the show"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Scheme",
+      image: "a-magician-never-reveals-his-secrets-houdini.png",
+      cardName: "A magicial never reveals his secrets"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Versatile",
+      image: "vanishing-act-houdini.png",
+      cardName: "Vanishing act"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Attack",
+      image: "the-big-reveal-houdini.png",
+      cardName: "The big reveal"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Versatile",
+      image: "smoke-and-mirrors-houdini.png",
+      cardName: "Smoke and mirrors"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Attack",
+      image: "sleight-of-hand-houdini.png",
+      cardName: "Sleight of hand"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Defense",
+      image: "grand-escape-houdini.png",
+      cardName: "Grand escape"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Attack",
+      image: "flourish-houdini.png",
+      cardName: "Flourish"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Attack",
+      image: "an-illusion-of-my-own-design-houdini.png",
+      cardName: "An illusion of my own design"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "Harry Houdini",
+      type: "Attack",
+      image: "for-my-next-trick-houdini.png",
+      cardName: "For my next trick"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Defense",
+      image: "prisoners-torment-genie.png",
+      cardName: "Prisoner's torment"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Attack",
+      image: "imprisoned-wrath-genie.png",
+      cardName: "Imprisoned wrath"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Versatile",
+      image: "i-grant-you-death-genie.png",
+      cardName: "I grant you death"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Attack",
+      image: "i-am-freed-genie.png",
+      cardName: "I am freed"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Attack",
+      image: "careful-what-you-wish-for-genie.png",
+      cardName: "Careful what you wish for"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Scheme",
+      image: "three-wishes-genie.png",
+      cardName: "Three wishes"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Attack",
+      image: "your-wish-is-my-command-genie.png",
+      cardName: "Your wish is my command"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Versatile",
+      image: "wishing-for-more-wishes-genie.png",
+      cardName: "Wishing for more wishes"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Versatile",
+      image: "this-is-no-parlor-trick-genie.png",
+      cardName: "This is no parlor trick"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Versatile",
+      image: "ive-made-sultans-out-of-less-genie.png",
+      cardName: "I've made Sultans out of less"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Defense",
+      image: "back-in-the-lamp-genie.png",
+      cardName: "Mack in the lamp"
+    }, {
+      id: nanoid(),
+      set: "Houdini vs. The Genie",
+      hero: "The Genie",
+      type: "Versatile",
+      image: "feint-genie.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Scheme",
+      image: "gyro-and-fries-ms-marvel.png",
+      cardName: "Gyro and fries"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Scheme",
+      image: "friends-and-family-ms-marvel.png",
+      cardName: "Friends and family"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Defense",
+      image: "slingshot-ms-marvel.png",
+      cardName: "Slingshot"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Versatile",
+      image: "shrink-shrink-shrink-ms-marvel.png",
+      cardName: "Shrink! Shrink! Shrink!"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Versatile",
+      image: "feint-ms-marvel.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Versatile",
+      image: "embiggen-ms-marvel.png",
+      cardName: "Embiggen"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Versatile",
+      image: "easy-peasy-ms-marvel.png",
+      cardName: "Easy peasy"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Versatile",
+      image: "momentous-shift-ms-marvel.png",
+      cardName: "Momentous shift"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Attack",
+      image: "fangirl-ms-marvel.png",
+      cardName: "Fangirl"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Attack",
+      image: "im-not-touching-you-ms-marvel.png",
+      cardName: "I'm not touching you"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Ms. Marvel",
+      type: "Attack",
+      image: "big-wind-up-ms-marvel.png",
+      cardName: "Big wind up"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Scheme",
+      image: "chosen-fate-cloak&dagger.png",
+      cardName: "Chosen fate"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Defense",
+      image: "living-shadow-cloak&dagger.png",
+      cardName: "Living shadow"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Versatile",
+      image: "traverse-the-darkforce-cloak&dagger.png",
+      cardName: "Traverse the Darkforce"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Versatile",
+      image: "feint-cloak&dagger.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Versatile",
+      image: "into-darkness-cloak&dagger.png",
+      cardName: "Into darkness"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Versatile",
+      image: "the-living-light-cloak&dagger.png",
+      cardName: "The living light"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Versatile",
+      image: "perfect-balance-cloak&dagger.png",
+      cardName: "Perfect balance"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Attack",
+      image: "into-the-void-cloak&dagger.png",
+      cardName: "Into the void"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Attack",
+      image: "channel-the-dark-cloak&dagger.png",
+      cardName: "Channel the dark"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Attack",
+      image: "darkforce-dimension-cloak&dagger.png",
+      cardName: "Darkforce Dimension"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Attack",
+      image: "commanding-impact-cloak&dagger.png",
+      cardName: "Commanding impact"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Cloak & Dagger",
+      type: "Attack",
+      image: "lightforce-barrage-cloak&dagger.png",
+      cardName: "Lightforce barrage"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Scheme",
+      image: "nutwork-of-spies-squirrel-girl.png",
+      cardName: "Nutwork of spies"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Scheme",
+      image: "horde-of-squirrels-squirrel-girl.png",
+      cardName: "Horde of squirrels"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Scheme",
+      image: "eat-nuts-squirrel-girl.png",
+      cardName: "Eat nuts"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Defense",
+      image: "squirgility-squirrel-girl.png",
+      cardName: "Squirgiltiy"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "feint-squirrel-girl.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "call-of-the-mild-squirrel-girl.png",
+      cardName: "Call of the mild"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "get-em-tippy-toe-squirrel-girl.png",
+      cardName: "Get 'em Tippy Toe!"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "dash-squirrel-girl.png",
+      cardName: "Dash"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "unbeatable-squirrel-girl-squirrel-girl.png",
+      cardName: "Unbeatable Squirrel Girl"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Versatile",
+      image: "squirmish-squirrel-girl.png",
+      cardName: "Squirmish"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Attack",
+      image: "kick-butts-squirrel-girl.png",
+      cardName: "Kick butts"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Attack",
+      image: "bite-of-steel-squirrel-girl.png",
+      cardName: "Bite of steel"
+    }, {
+      id: nanoid(),
+      set: "Teen Spirit",
+      hero: "Squirrel Girl",
+      type: "Attack",
+      image: "fuzzball-special-squirrel-girl.png",
+      cardName: "Fuzzball Special"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Scheme",
+      image: "the-madripoor-sanction-black-widow.png",
+      cardName: "The Madripoor Sanction"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Scheme",
+      image: "the-kinshasa-directive-black-widow.png",
+      cardName: "The Kinshasa Directive"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Scheme",
+      image: "the-firenze-agenda-black-widow.png",
+      cardName: "The Firenze Agenda"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Scheme",
+      image: "the-moscow-protocol-black-widow.png",
+      cardName: "The Moscow Protocol"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Scheme",
+      image: "the-budapest-gambit-black-widow.png",
+      cardName: "The Budapest-gambit"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Defense",
+      image: "life-model-decoy-black-widow.png",
+      cardName: "Life Model Decoy"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "double-identity-black-widow.png",
+      cardName: "Double identity"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "feint-black-widow.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "caught-in-a-web-black-widow.png",
+      cardName: "Caught in a web"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "widows-line-black-widow.png",
+      cardName: "Widow's Line"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "widows-kiss-black-widow.png",
+      cardName: "Widow's Kiss"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Versatile",
+      image: "acting-director-of-shield-black-widow.png",
+      cardName: "Acting director of S.H.I.E.L.D."
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Attack",
+      image: "fake-out-black-widow.png",
+      cardName: "Fake out"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Attack",
+      image: "widows-bite-black-widow.png",
+      cardName: "Widow's Bite"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Widow",
+      type: "Attack",
+      image: "widows-sting-black-widow.png",
+      cardName: "Widow's Sting"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Scheme",
+      image: "stalking-panther-black-panther.png",
+      cardName: "Stalking panther"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Scheme",
+      image: "tactical-remote-scanning-black-panther.png",
+      cardName: "Tactical remote scanning"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Defense",
+      image: "microweave-mesh-black-panther.png",
+      cardName: "Microweave mesh"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Defense",
+      image: "evade-black-panther.png",
+      cardName: "Evade"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "regroup-black-panther.png",
+      cardName: "Regroup"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "anti-metal-claws-black-panther.png",
+      cardName: "Anti-metal claws"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "nanotriage-processor-black-panther.png",
+      cardName: "Nanotriage processor"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "feint-black-panther.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "wakanda-forever-black-panther.png",
+      cardName: "Wakanda Forever!"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "cat-like-reflexes-black-panther.png",
+      cardName: "Cat-like reflexes"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Versatile",
+      image: "ancestral-insight-black-panther.png",
+      cardName: "Ancestral insight"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Attack",
+      image: "vibranium-shockwave-black-panther.png",
+      cardName: "Vibranium shockwave"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Black Panther",
+      type: "Attack",
+      image: "analyze-and-adjust-black-panther.png",
+      cardName: "Analyze and adjust"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Scheme",
+      image: "manipulation-winter-soldier.png",
+      cardName: "Manipulation"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Scheme",
+      image: "a-boy-named-bucky-winter-soldier.png",
+      cardName: "A boy named Bucky"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Defense",
+      image: "complete-the-mission-winter-soldier.png",
+      cardName: "Complete the mission"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Versatile",
+      image: "reprogram-winter-soldier.png",
+      cardName: "Reprogram"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Versatile",
+      image: "feint-winter-soldier.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Versatile",
+      image: "wily-fighting-winter-soldier.png",
+      cardName: "Wily fighting"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Versatile",
+      image: "born-in-the-barracks-winter-soldier.png",
+      cardName: "Born in the barracks"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Versatile",
+      image: "reflex-memories-winter-soldier.png",
+      cardName: "Reflex memories"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Attack",
+      image: "marksman-winter-soldier.png",
+      cardName: "Marksman"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Attack",
+      image: "bionic-arm-winter-soldier.png",
+      cardName: "Bionic arm"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Attack",
+      image: "programmed-to-kill-winter-soldier.png",
+      cardName: "Programmed to kill"
+    }, {
+      id: nanoid(),
+      set: "For King and Country",
+      hero: "Winter Soldier",
+      type: "Attack",
+      image: "without-remorse-winter-soldier.png",
+      cardName: "Without remorse"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Scheme",
+      image: "no-really-im-a-doctor-doctor-strange.png",
+      cardName: "No, really, I'm a doctor"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Scheme",
+      image: "eye-of-agamotto-doctor-strange.png",
+      cardName: "Eye of Agamotto"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Defense",
+      image: "the-mists-of-munnopor-doctor-strange.png",
+      cardName: "The Mists of Munnopor"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Versatile",
+      image: "master-of-kamar-taj-doctor-strange.png",
+      cardName: "Master of Kamar-Taj"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Versatile",
+      image: "cloak-of-levitation-doctor-strange.png",
+      cardName: "Cloak of Levitation"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Versatile",
+      image: "steadfast-disciple-doctor-strange.png",
+      cardName: "Steadfast disciple"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Versatile",
+      image: "feint-doctor-strange.png",
+      cardName: "Feint"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Versatile",
+      image: "seven-suns-of-cinnibus-doctor-strange.png",
+      cardName: "Seven Suns of Cinnibus"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Attack",
+      image: "bolts-of-balthakk-doctor-strange.png",
+      cardName: "Bolts of Balthakk"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Attack",
+      image: "the-rings-of-raggadorr-doctor-strange.png",
+      cardName: "The Rings of Raggadorr"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Doctor Strange",
+      type: "Attack",
+      image: "the-winds-of-watoomb-doctor-strange.png",
+      cardName: "The Winds of Watoomb"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Scheme",
+      image: "with-great-power-spider-man.png",
+      cardName: "With great power"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Scheme",
+      image: "friendly-neighborhood-spider-man-spider-man.png",
+      cardName: "Friendly neighborhood Spider-Man"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Defense",
+      image: "web-shooters-spider-man.png",
+      cardName: "Web shooters"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Defense",
+      image: "counter-attack-spider-man.png",
+      cardName: "Counter attack"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Versatile",
+      image: "spider-sense-tingling-spider-man.png",
+      cardName: "Spider-Seinse tingling!"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Versatile",
+      image: "momentous-shift-spider-man.png",
+      cardName: "Momentous shift"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Versatile",
+      image: "wall-crawler-spider-man.png",
+      cardName: "Wall crawler"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Versatile",
+      image: "snark-spider-man.png",
+      cardName: "Snark"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Versatile",
+      image: "right-in-the-face-spider-man.png",
+      cardName: "Right in the face"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Attack",
+      image: "disarming-shot-spider-man.png",
+      cardName: "Disarming shot"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Attack",
+      image: "thwip-spider-man.png",
+      cardName: "Thwip!"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "Spider-Man",
+      type: "Attack",
+      image: "swinging-kick-spider-man.png",
+      cardName: "Swinging kick"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Scheme",
+      image: "double-jeopardy-she-hulk.png",
+      cardName: "Double Jeopardy"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Scheme",
+      image: "leap-toward-she-hulk.png",
+      cardName: "Leap toward"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Scheme",
+      image: "jennifer-walters-esq-she-hulk.png",
+      cardName: "Jennifer Walters, Esq."
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Defense",
+      image: "lady-justice-she-hulk.png",
+      cardName: "Lady Justice"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Versatile",
+      image: "the-defense-rests-she-hulk.png",
+      cardName: "The defense rests"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Versatile",
+      image: "cease-and-desist-she-hulk.png",
+      cardName: "Ceace and desist"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Versatile",
+      image: "legalese-she-hulk.png",
+      cardName: "Legalese"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Versatile",
+      image: "nerve-cluster-strike-she-hulk.png",
+      cardName: "Nerve cluster strike"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Versatile",
+      image: "green-energy-she-hulk.png",
+      cardName: "Green energy"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Attack",
+      image: "the-savage-she-hulk-she-hulk.png",
+      cardName: "The Savage She-Hulk"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Attack",
+      image: "sensational-she-hulk.png",
+      cardName: "Sensational"
+    }, {
+      id: nanoid(),
+      set: "Brains and Brawn",
+      hero: "She-Hulk",
+      type: "Attack",
+      image: "omega-level-threat-she-hulk.png",
+      cardName: "Omega-level threat"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Scheme",
+      image: "remote-control-tesla.png",
+      cardName: "Remote control"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Scheme",
+      image: "fully-charged-tesla.png",
+      cardName: "Fully charged"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Defense",
+      image: "intense-experimentation-tesla.png",
+      cardName: "Intense experimentation"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Versatile",
+      image: "kinetic-induction-tesla.png",
+      cardName: "Kinetic induction"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Versatile",
+      image: "repulsion-blast-tesla.png",
+      cardName: "Repuslion blast"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Versatile",
+      image: "polyphase-coils-tesla.png",
+      cardName: "Polyphase coils"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Versatile",
+      image: "lightning-storm-tesla.png",
+      cardName: "Lightning-storm"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Versatile",
+      image: "x-ray-radiation-tesla.png",
+      cardName: "X-Ray radiation"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Attack",
+      image: "death-ray-tesla.png",
+      cardName: "Death ray"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Attack",
+      image: "7-hertz-tesla.png",
+      cardName: "7-hertz"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Nikola Tesla",
+      type: "Attack",
+      image: "the-alternating-current-tesla.png",
+      cardName: "The Alternating Current"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Scheme",
+      image: "a-few-more-pearls-annie-christmas.png",
+      cardName: "A few more pearls"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Scheme",
+      image: "captains-orders-annie-christmas.png",
+      cardName: "Captain's orders"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Defense",
+      image: "mississippi-queen-annie-christmas.png",
+      cardName: "Mississippi Queen"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Defense",
+      image: "slick-talker-annie-christmas.png",
+      cardName: "Slick talker"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "striking-beauty-annie-christmas.png",
+      cardName: "Striking beauty"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "the-turn-and-the-river-annie-christmas.png",
+      cardName: "The turn and the river"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "keep-your-hands-to-yourself-annie-christmas.png",
+      cardName: "Keep your hands to yourself"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "quite-a-pair-annie-christmas.png",
+      cardName: "Quite a pair"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "long-shot-annie-christmas.png",
+      cardName: "Long shot"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Versatile",
+      image: "better-together-annie-christmas.png",
+      cardName: "Better together"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Attack",
+      image: "bottom-dealing-annie-christmas.png",
+      cardName: "Bottom dealing"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Annie Christmas",
+      type: "Attack",
+      image: "lagniappe-annie-christmas.png",
+      cardName: "Lagniappe"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Scheme",
+      image: "arrive-just-in-time-golden-bat.png",
+      cardName: "Arive just in time"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Scheme",
+      image: "alpine-fortress-golden-bat.png",
+      cardName: "Alpine Fortress"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Defense",
+      image: "imposing-presence-golden-bat.png",
+      cardName: "Imposing presence"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Defense",
+      image: "he-laughs-at-your-feebleness-golden-bat.png",
+      cardName: "He laughs at your feebleness"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Versatile",
+      image: "sight-beyond-sight-golden-bat.png",
+      cardName: "Sight beyond sight"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Versatile",
+      image: "like-a-flash-of-golden-light-golden-bat.png",
+      cardName: "Like a flash of golden light"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Versatile",
+      image: "insight-of-the-ancients-golden-bat.png",
+      cardName: "Insight of the ancients"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Versatile",
+      image: "terrifying-roar-golden-bat.png",
+      cardName: "Terrifying roar"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Versatile",
+      image: "skirmish-golden-bat.png",
+      cardName: "Skirmish"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Attack",
+      image: "a-punch-to-shake-the-earth-golden-bat.png",
+      cardName: "A punch to shake the Earth"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Attack",
+      image: "vaporizing-eyebeams-golden-bat.png",
+      cardName: "Vaporizing eyebeams"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Golden Bat",
+      type: "Attack",
+      image: "super-strength-golden-bat.png",
+      cardName: "Super strength"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Scheme",
+      image: "helpful-assistant-jill-trent.png",
+      cardName: "Helpful assistant"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Defense",
+      image: "hypnotist-jill-trent.png",
+      cardName: "Hypnotist"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Defense",
+      image: "indestructible-cloth-jill-trent.png",
+      cardName: "Indestructible cloth"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "caught-red-handed-jill-trent.png",
+      cardName: "Caught red-handed"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "laser-pen-jill-trent.png",
+      cardName: "Laser pen"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "stasis-diffuser-jill-trent.png",
+      cardName: "Stasis diffuser"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "sisters-in-arms-jill-trent.png",
+      cardName: "Sisters in arms"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "insightful-deduction-jill-trent.png",
+      cardName: "Insightful deduction"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "utility-belt-jill-trent.png",
+      cardName: "Utility belt"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "gyroscopic-jetpack-jill-trent.png",
+      cardName: "Gyroscopic jetpack"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Versatile",
+      image: "ace-fighter-jill-trent.png",
+      cardName: "Ace fighter"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Attack",
+      image: "battle-of-wits-jill-trent.png",
+      cardName: "Battle of wits"
+    }, {
+      id: nanoid(),
+      set: "Tales to Amaze",
+      hero: "Dr. Jill Trent",
+      type: "Attack",
+      image: "energizing-spray-jill-trent.png",
+      cardName: "Energizing spray"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Defense",
+      image: "spring-the-trap-oda-nobunaga.png",
+      cardName: "Spring the trap"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Scheme",
+      image: "demon-king-of-the-sixth-heaven-oda-nobunaga.png",
+      cardName: "Demon King of the Sixth Heaven"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Attack",
+      image: "student-of-war-oda-nobunaga.png",
+      cardName: "Student of war"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Scheme",
+      image: "reinforce-oda-nobunaga.png",
+      cardName: "Reinforce"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Versatile",
+      image: "patience-and-strategy-oda-nobunaga.png",
+      cardName: "Patience and strategy"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Versatile",
+      image: "battle-maneuvers-oda-nobunaga.png",
+      cardName: "Battle maneuvers"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Attack",
+      image: "fire-and-flames-oda-nobunaga.png",
+      cardName: "Fire and Flames"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Defense",
+      image: "pragmatism-oda-nobunaga.png",
+      cardName: "Pragmatism"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Attack",
+      image: "lightning-and-thunder-oda-nobunaga.png",
+      cardName: "Lightning and Thunder"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Attack",
+      image: "sun-and-moon-oda-nobunaga.png",
+      cardName: "Sun and Moon"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Oda Nobunaga",
+      type: "Versatile",
+      image: "momentous-shift-oda-nobunaga.png",
+      cardName: "Momentous shift"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Defense",
+      image: "deeds-of-valor-tomoe-gozen.png",
+      cardName: "Deeds of valor"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Versatile",
+      image: "flash-of-steel-tomoe-gozen.png",
+      cardName: "Flash of steel"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Attack",
+      image: "fearsome-strength-tomoe-gozen.png",
+      cardName: "Fearsome strength"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Scheme",
+      image: "lord-kisos-final-stand-tomoe-gozen.png",
+      cardName: "Lord Kiso's final stand"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Defense",
+      image: "refuse-to-retreat-tomoe-gozen.png",
+      cardName: "Refuse to retreat"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Versatile",
+      image: "a-worthy-opponent-tomoe-gozen.png",
+      cardName: "A worthy opponent"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Versatile",
+      image: "confront-any-demon-or-god-tomoe-gozen.png",
+      cardName: "Confront any Demon or God"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Attack",
+      image: "a-warriors-way-tomoe-gozen.png",
+      cardName: "A warrior's way"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Attack",
+      image: "five-against-thousands-tomoe-gozen.png",
+      cardName: "Five against thousands"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Attack",
+      image: "witness-my-last-battle-tomoe-gozen.png",
+      cardName: "Witness my last battle"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Attack",
+      image: "piercing-shot-tomoe-gozen.png",
+      cardName: "Piercing shot"
+    }, {
+      id: nanoid(),
+      set: "Sun's Origin",
+      hero: "Tomoe Gozen",
+      type: "Versatile",
+      image: "skirmish-tomoe-gozen.png",
+      cardName: "Skirmish"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "horror-shakespeare.png",
+      cardName: "Horror"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "horror2-shakespeare.png",
+      cardName: "Horror"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "horror3-shakespeare.png",
+      cardName: "Horror"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "horror4-shakespeare.png",
+      cardName: "Horror"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "horror5-shakespeare.png",
+      cardName: "Horror"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "again-shakespeare.png",
+      cardName: "Again"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "such-sweet-sorrow-shakespeare.png",
+      cardName: "Such sweet sorrow"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "revise-shakespeare.png",
+      cardName: "Revise"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "deceive-shakespeare.png",
+      cardName: "Deceive"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "et-tu-brute-shakespeare.png",
+      cardName: "Et tu, Brute?"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "the-ides-of-march-shakespeare.png",
+      cardName: "The Ides of March"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "alas-shakespeare.png",
+      cardName: "alas"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Versatile",
+      image: "once-more-unto-the-breach-shakespeare.png",
+      cardName: "Once more unto the breach"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "places-places-shakespeare.png",
+      cardName: "Places, Places!"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "all-are-punished-shakespeare.png",
+      cardName: "All are punished"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "William Shakespeare",
+      type: "Attack",
+      image: "my-kingdom-for-a-horse-shakespeare.png",
+      cardName: "Again"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Scheme",
+      image: "the-ghost-hamlet.png",
+      cardName: "The Ghost"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Scheme",
+      image: "method-in-the-madness-hamlet.png",
+      cardName: "Method in the madness"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Defense",
+      image: "nothing-either-good-or-bad-hamlet.png",
+      cardName: "Nothing either good or bad"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Defense",
+      image: "the-rest-is-silence-hamlet.png",
+      cardName: "The rest is sicence"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Defense",
+      image: "maddening-insight-hamlet.png",
+      cardName: "Maddening insight"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Versatile",
+      image: "outrageous-fortune-hamlet.png",
+      cardName: "Outrageous fortune"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Versatile",
+      image: "blood-will-have-blood-hamlet.png",
+      cardName: "Blood will have blood"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Versatile",
+      image: "the-plays-the-thing-hamlet.png",
+      cardName: "The play's the thing"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Versatile",
+      image: "the-readiness-is-all-hamlet.png",
+      cardName: "The readiness is all"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Attack",
+      image: "to-sleep-perchance-to-dream-hamlet.png",
+      cardName: "To sleep, perchance to dream"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Attack",
+      image: "uncertain-doom-hamlet.png",
+      cardName: "Uncertain doom"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Hamlet",
+      type: "Attack",
+      image: "cruel-to-be-kind-hamlet.png",
+      cardName: "Cruel to be kind"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Scheme",
+      image: "what-fools-these-mortals-be-titania.png",
+      cardName: "What fools these mortals be"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Scheme",
+      image: "gift-of-the-fair-folk-titania.png",
+      cardName: "Gift of the Fair Folk"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Defense",
+      image: "protection-of-the-fairy-woods-titania.png",
+      cardName: "Protection of the Fairy Woods"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Defense",
+      image: "but-a-dream-titania.png",
+      cardName: "But a dream"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Versatile",
+      image: "parting-gift-titania.png",
+      cardName: "Parting gift"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Versatile",
+      image: "fairy-song-titania.png",
+      cardName: "Fairy song"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Versatile",
+      image: "the-moon-looks-down-titania.png",
+      cardName: "The Moon looks down"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Versatile",
+      image: "whisked-away-titania.png",
+      cardName: "Whisked away"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Versatile",
+      image: "as-wise-as-beautiful-titania.png",
+      cardName: "As wise as beautiful"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Attack",
+      image: "met-by-moonlight-titania.png",
+      cardName: "Met by Moonlight"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Attack",
+      image: "queen-of-the-fairies-titania.png",
+      cardName: "Queen of the Fairies"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Titania",
+      type: "Attack",
+      image: "a-momentary-glance-titania.png",
+      cardName: "A momentary glance"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Attack",
+      image: "double-double-wayward-sisters.png",
+      cardName: "Double Double"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Defense",
+      image: "toil-and-trouble-wayward-sisters.png",
+      cardName: "Toil and Trouble"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Versatile",
+      image: "fire-burn-and-cauldron-bubble-wayward-sisters.png",
+      cardName: "Fire Burn and Cauldron Bubble"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Scheme",
+      image: "prophecy-wayward-sisters.png",
+      cardName: "Prophecy"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Scheme",
+      image: "something-wicked-this-way-comes-wayward-sisters.png",
+      cardName: "Something wicked this way comes"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Defense",
+      image: "unnatural-remedy-wayward-sisters.png",
+      cardName: "Unnatural remedy"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Defense",
+      image: "pricking-of-my-thumbs-wayward-sisters.png",
+      cardName: "Pricking of my thumbs"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Versatile",
+      image: "ward-wayward-sisters.png",
+      cardName: "Ward"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Versatile",
+      image: "curious-familiar-wayward-sisters.png",
+      cardName: "Curious familiar"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Versatile",
+      image: "the-stars-align-wayward-sisters.png",
+      cardName: "The stars align"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Attack",
+      image: "hurly-burly-wayward-sisters.png",
+      cardName: "Hurly-Burly"
+    }, {
+      id: nanoid(),
+      set: "Slings and Arrows",
+      hero: "Wayward Sisters",
+      type: "Attack",
+      image: "all-seeing-familiar-wayward-sisters.png",
+      cardName: "All-seeing-familiar"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Scheme",
+      image: "gear-tawny-owl-geralt.png",
+      cardName: "GEAR: Tawny Owl"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Scheme",
+      image: "gear-blizzard-geralt.png",
+      cardName: "GEAR: Blizzard"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Defense",
+      image: "gear-armor-of-the-forgotten-wolf-geralt.png",
+      cardName: "GEAR: Armor of the Forgotten Wolf"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Defense",
+      image: "gear-wolf-medallion-geralt.png",
+      cardName: "GEAR: Wolf medallion"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Attack",
+      image: "gear-sword-of-silver-geralt.png",
+      cardName: "GEAR: Sword of silver"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Attack",
+      image: "gear-sword-of-steel-geralt.png",
+      cardName: "GEAR: Sword of steel"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Scheme",
+      image: "witcher-senses-geralt.png",
+      cardName: "Witcher senses"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "plot-twist-geralt.png",
+      cardName: "Plot twist"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "annoying-tune-geralt.png",
+      cardName: "Annoying tune"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "damn-youre-ugly-geralt.png",
+      cardName: "Damn you're ugly"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "disciplined-duelist-geralt.png",
+      cardName: "Disciplined duelist"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "rend-geralt.png",
+      cardName: "Rend"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "yrden-geralt.png",
+      cardName: "Yrden"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Versatile",
+      image: "riposte-geralt.png",
+      cardName: "Riposte"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Geralt of Rivia",
+      type: "Attack",
+      image: "igni-geralt.png",
+      cardName: "Igni"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Scheme",
+      image: "unicorn-ally-ciri.png",
+      cardName: "Unicorn ally"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Scheme",
+      image: "child-of-the-elder-blood-ciri.png",
+      cardName: "Child of the Elder Blood"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Defense",
+      image: "parry-ciri.png",
+      cardName: "Parry"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Versatile",
+      image: "searching-strike-ciri.png",
+      cardName: "Searching strike"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Versatile",
+      image: "blink-ciri.png",
+      cardName: "Blink"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Versatile",
+      image: "zireael-ciri.png",
+      cardName: "Zireael"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Versatile",
+      image: "the-lady-of-space-and-time-ciri.png",
+      cardName: "The Lady of Space and Time"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Versatile",
+      image: "pushed-to-the-brink-ciri.png",
+      cardName: "Pushed to the brink"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Attack",
+      image: "bane-of-the-aen-elle-ciri.png",
+      cardName: "Bane of the Aen Elle"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Attack",
+      image: "channel-the-source-ciri.png",
+      cardName: "Channel the source"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ciri",
+      type: "Attack",
+      image: "lion-cub-of-cintra-ciri.png",
+      cardName: "Lion Cub of Cintra"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Scheme",
+      image: "vanish-into-murder-ancient-leshen.png",
+      cardName: "Vanish into murder"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Scheme",
+      image: "strength-of-the-pack-ancient-leshen.png",
+      cardName: "Strength of the pack"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Defense",
+      image: "primeval-guardian-ancient-leshen.png",
+      cardName: "Primeval guardian"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Versatile",
+      image: "harrying-strike-ancient-leshen.png",
+      cardName: "Harrying Strike"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Versatile",
+      image: "planted-feet-ancient-leshen.png",
+      cardName: "Planted feet"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Attack",
+      image: "command-the-forest-ancient-leshen.png",
+      cardName: "Command the forest"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Attack",
+      image: "nature-abounds-ancient-leshen.png",
+      cardName: "Nature abounds"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Attack",
+      image: "disturbing-howls-ancient-leshen.png",
+      cardName: "Disturbing howls"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Attack",
+      image: "flock-of-birds-ancient-leshen.png",
+      cardName: "Flock of birds"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Attack",
+      image: "primeval-slam-ancient-leshen.png",
+      cardName: "Vanish into murder"
+    }, {
+      id: nanoid(),
+      set: "Steel and Silver",
+      hero: "Ancient Leshen",
+      type: "Versatile",
+      image: "wily-fighting-ancient-leshen.png",
+      cardName: "Wily fighting"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Scheme",
+      image: "lodge-of-sorceresses-yennefer&triss.png",
+      cardName: "Lodge of Sorceresses"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Scheme",
+      image: "advisor-to-the-king-yennefer&triss.png",
+      cardName: "Advisor to the King"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Defense",
+      image: "paralyzing-fetters-yennefer&triss.png",
+      cardName: "Paralyzing fetters"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Defense",
+      image: "magical-barrier-yennefer&triss.png",
+      cardName: "Magical barrier"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Versatile",
+      image: "quick-and-ready-yennefer&triss.png",
+      cardName: "Quick and ready"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Versatile",
+      image: "telepathy-yennefer&triss.png",
+      cardName: "Telepathy"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Versatile",
+      image: "ball-lightning-yennefer&triss.png",
+      cardName: "Ball lightning"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Attack",
+      image: "echoing-blast-yennefer&triss.png",
+      cardName: "Echoing-blast"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Attack",
+      image: "portal-to-anywhere-yennefer&triss.png",
+      cardName: "Portal to anywhere"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Attack",
+      image: "merigolds-hailstorm-yennefer&triss.png",
+      cardName: "Merigold's Hailstorm"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Yennefer & Triss",
+      type: "Attack",
+      image: "incinerate-yennefer&triss.png",
+      cardName: "Incinerate"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "owlform-philippa.png",
+      cardName: "Owlform"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "lightning-bolt-philippa.png",
+      cardName: "Lightning bolt"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "regicide-philippa.png",
+      cardName: "Regicide"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "chain-lightning-philippa.png",
+      cardName: "Chain lightning"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Versatile",
+      image: "spellbreaker-philippa.png",
+      cardName: "Spellbreaker"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Versatile",
+      image: "redanian-plot-philippa.png",
+      cardName: "Redanian plot"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Versatile",
+      image: "cunning-philippa.png",
+      cardName: "Cunning"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Defense",
+      image: "blinding-dust-philippa.png",
+      cardName: "Blinding dust"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Defense",
+      image: "paralyzing-fetters-philippa.png",
+      cardName: "Paralyzing fetters"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Scheme",
+      image: "polymorphy-philippa.png",
+      cardName: "Polymorphy"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Scheme",
+      image: "spymasters-ruse-philippa.png",
+      cardName: "Spymaster's ruse"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "backup-plan-philippa.png",
+      cardName: "Backup plan"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Philippa",
+      type: "Attack",
+      image: "do-my-bidding-philippa.png",
+      cardName: "Do my bidding"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Scheme",
+      image: "close-for-the-kill-eredin.png",
+      cardName: "Close for the kill"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Scheme",
+      image: "might-of-the-aen-elle-eredin.png",
+      cardName: "Might of the Aen Elle"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Defense",
+      image: "implacable-eredin.png",
+      cardName: "Implacable"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Defense",
+      image: "portal-defense-eredin.png",
+      cardName: "Portal defense"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Versatile",
+      image: "icy-guile-eredin.png",
+      cardName: "Icy guile"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Versatile",
+      image: "wild-hunt-eredin.png",
+      cardName: "Wild Hunt"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Attack",
+      image: "unyielding-hordes-eredin.png",
+      cardName: "Unyielding hordes"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Attack",
+      image: "foul-purpose-eredin.png",
+      cardName: "Foul purpose"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Attack",
+      image: "backhand-eredin.png",
+      cardName: "Backhand"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Attack",
+      image: "brutal-strike-eredin.png",
+      cardName: "Brutal strike"
+    }, {
+      id: nanoid(),
+      set: "Realm's Fall",
+      hero: "Eredin",
+      type: "Versatile",
+      image: "skirmish-eredin.png",
+      cardName: "Skirmish"
     }
 
 
