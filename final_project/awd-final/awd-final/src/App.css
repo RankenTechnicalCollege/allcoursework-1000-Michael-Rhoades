@@ -1,14 +1,17 @@
 #allCards{
-  border-radius: 5%;
   box-shadow: 5px 5px 5px 5px grey;
-  border: thin solid black;
   padding: 5em;
+  background-color: rgb(240, 240, 240);
 }
 
 #searchCards{
-  border-radius: 5%;
   box-shadow: 5px 5px 5px 5px grey;
-  border: thin solid black;
   padding: 5em;
+  background-color: rgb(240, 240, 240);
   color: blue;
+  margin-bottom: 1.5em;
+}
+
+body{
+  background-color: rgb(50, 50, 50);
 }

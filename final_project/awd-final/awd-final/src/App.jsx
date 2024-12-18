@@ -15,15 +15,15 @@ function App() {
   const [set, setSet] = useState('');
 
   useEffect(() => {
-//    if (localStorage) {
-//      const cardsLocalStorage = JSON.parse(localStorage.getItem('cards'));
-//      if (cardsLocalStorage) {
-//        saveCards(cardsLocalStorage);
-//      } else {
-//        saveCards(cards);
-//      }
-    saveCards(cards);}
-  /*}*/, []);
+    if (localStorage) {
+      const cardsLocalStorage = JSON.parse(localStorage.getItem('cards'));
+      if (cardsLocalStorage) {
+        saveCards(cardsLocalStorage);
+      } else {
+        saveCards(cards);
+      }
+    }
+  }, []);
 
   const cards = 
     [{
@@ -46,14 +46,14 @@ function App() {
       hero: "King Arthur",
       type: "Scheme",
       image: "command-the-storms-king-arthur.png",
-      cardName: "Command the Storms"
+      cardName: "Command the storms"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "King Arthur",
       type: "Versatile",
       image: "divine-intervention-king-arthur.png",
-      cardName: "Divine Intervention"
+      cardName: "Divine intervention"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -74,14 +74,14 @@ function App() {
       hero: "King Arthur",
       type: "Versatile",
       image: "momentous-shift-king-arthur.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "King Arthur",
       type: "Attack",
       image: "noble-sacrifice-king-arthur.png",
-      cardName: "Noble Sacrifice"
+      cardName: "Noble sacrifice"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -102,7 +102,7 @@ function App() {
       hero: "King Arthur",
       type: "Scheme",
       image: "restless-spirits-king-arthur.png",
-      cardName: "Restless Spirits"
+      cardName: "Restless spirits"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -116,14 +116,14 @@ function App() {
       hero: "King Arthur",
       type: "Attack",
       image: "swift-strike-king-arthur.png",
-      cardName: "Swift Strike"
+      cardName: "Swift strike"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "King Arthur",
       type: "Attack",
       image: "the-aid-of-morgana-king-arthur.png",
-      cardName: "The Aid of Morgana"
+      cardName: "The aid of Morgana"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -144,14 +144,14 @@ function App() {
       hero: "Alice",
       type: "Attack",
       image: "jaws-that-bite-alice.png",
-      cardName: "Jaws That Bite"
+      cardName: "Jaws that bite"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Attack",
       image: "claws-that-catch-alice.png",
-      cardName: "Claws That Catch"
+      cardName: "Claws that catch"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -165,35 +165,35 @@ function App() {
       hero: "Alice",
       type: "Versatile",
       image: "mad-as-a-hatter-alice.png",
-      cardName: "Mad as a Hatter"
+      cardName: "Mad as a hatter"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Scheme",
       image: "drink-me-alice.png",
-      cardName: "Drink Me"
+      cardName: "Drink me"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Versatile",
       image: "i-m-late-i-m-late-alice.png",
-      cardName: "I'm Late, I'm Late"
+      cardName: "I'm late, I'm late"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Scheme",
       image: "eat-me-alice.png",
-      cardName: "Eat Me"
+      cardName: "Eat me"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Attack",
       image: "the-other-side-of-the-mushroom-alice.png",
-      cardName: "The Other Side of the Mushroom"
+      cardName: "The other side of the mushroom"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -207,21 +207,21 @@ function App() {
       hero: "Alice",
       type: "Attack",
       image: "snicker-snack-alice.png",
-      cardName: "Snicker Snack"
+      cardName: "Snicker-snack"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Defense",
       image: "looking-glass-alice.png",
-      cardName: "Looking Glass"
+      cardName: "Looking glass"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Alice",
       type: "Versatile",
       image: "momentous-shift-alice.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -249,7 +249,7 @@ function App() {
       hero: "Sinbad",
       type: "Attack",
       image: "voyage-to-the-city-of-the-man-eating-apes-sinbad.png",
-      cardName: "Voyage to the City of the Man Eating Apes"
+      cardName: "Voyage to the City of the Man-Eating Apes"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -291,14 +291,14 @@ function App() {
       hero: "Sinbad",
       type: "Attack",
       image: "by-fortune-and-fate-sinbad.png",
-      cardName: "By Fortune and Fate"
+      cardName: "By fortune and fate"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Sinbad",
       type: "Scheme",
       image: "riches-beyond-compare-sinbad.png",
-      cardName: "Riches Beyond Compare"
+      cardName: "Riches beyond compare"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -319,28 +319,28 @@ function App() {
       hero: "Sinbad",
       type: "Versatile",
       image: "exploit-sinbad.png",
-      cardName: "Voyage to the City of the Man Eating Apes"
+      cardName: "Exploit"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Sinbad",
       type: "Versatile",
       image: "leap-away-sinbad.png",
-      cardName: "Leap Away"
+      cardName: "Leap away"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Sinbad",
       type: "Attack",
       image: "commanding-impact-sinbad.png",
-      cardName: "Commanding Impact"
+      cardName: "Commanding impact"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Sinbad",
       type: "Versatile",
       image: "momentous-shift-sinbad.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -361,14 +361,14 @@ function App() {
       hero: "Medusa",
       type: "Scheme",
       image: "a-momentary-glance-medusa.png",
-      cardName: "A Momentary Glance"
+      cardName: "A momentary glance"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Medusa",
       type: "Attack",
       image: "second-shot-3-medusa.png",
-      cardName: "Second Shot"
+      cardName: "Second shot"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -382,14 +382,14 @@ function App() {
       hero: "Medusa",
       type: "Scheme",
       image: "winged-frenzy-medusa.png",
-      cardName: "Winged Frenzy"
+      cardName: "Winged frenzy"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
       hero: "Medusa",
       type: "Versatile",
       image: "clutching-claws-medusa.png",
-      cardName: "Clutching Claws"
+      cardName: "Clutching claws"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -410,7 +410,7 @@ function App() {
       hero: "Medusa",
       type: "Attack",
       image: "gaze-of-stone-medusa.png",
-      cardName: "Gaze of Stone"
+      cardName: "Gaze of stone"
     }, {
       id: nanoid(),
       set: "Battle of Legends v1",
@@ -438,56 +438,56 @@ function App() {
       hero: "Bruce Lee",
       type: "Scheme",
       image: "one-inch-punch-bruce-lee.png",
-      cardName: "One Inch Punch"
+      cardName: "One-Inch Punch"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-corkscrew-finger-jab-bruce-lee.png",
-      cardName: "Jeet Kune Do: Corkscrew Finger Jab"
+      cardName: "JEET KUNE DO: Corkscrew Finger Jab"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-short-lead-hook-bruce-lee.png",
-      cardName: "Jeet Kune Do: Short Lead Hook"
+      cardName: "JEET KUNE DO: Short Lead Hook"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-intercepting-fist-bruce-lee.png",
-      cardName: "Jeet Kune Do: Intercepting Fist"
+      cardName: "JEET KUNE DO: Intercepting Fist"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-wrist-lock-bruce-lee.png",
-      cardName: "Jeet Kune Do: Wrist Lock"
+      cardName: "JEET KUNE DO: Wrist Lock"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-downward-side-kick-bruce-lee.png",
-      cardName: "Jeet Kune Do: Downward Side Kick"
+      cardName: "JEET KUNE DO: Downward Side Kick"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Attack",
       image: "jeet-kune-do-high-straight-lead-bruce-lee.png",
-      cardName: "Jeet Kune Do: High Straight Lead"
+      cardName: "JEET KUNE DO: High Straight Lead"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Scheme",
       image: "hoo-whaaaaaaa-bruce-lee.png",
-      cardName: "Hoo! Whaaaaaaa!"
+      cardName: "Hoo! Whaaaaaa!"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
@@ -501,21 +501,21 @@ function App() {
       hero: "Bruce Lee",
       type: "Scheme",
       image: "bring-it-on-bruce-lee.png",
-      cardName: "Bring It On"
+      cardName: "Bring it on"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Defense",
       image: "be-like-water-bruce-lee.png",
-      cardName: "Be Like Water"
+      cardName: "Be like water"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
       hero: "Bruce Lee",
       type: "Defense",
       image: "taste-of-blood-bruce-lee.png",
-      cardName: "Taste of Blood"
+      cardName: "Taste of blood"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
@@ -529,7 +529,7 @@ function App() {
       hero: "Bruce Lee",
       type: "Versatile",
       image: "momentous-shift-bruce-lee.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Bruce Lee",
@@ -557,7 +557,7 @@ function App() {
       hero: "Robin Hood",
       type: "Attack",
       image: "highway-robbery-robin-hood.png",
-      cardName: "Highway Robbery"
+      cardName: "Highway robbery"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -571,21 +571,21 @@ function App() {
       hero: "Robin Hood",
       type: "Scheme",
       image: "steal-from-the-rich-robin-hood.png",
-      cardName: "Steal from the Rich"
+      cardName: "Steal from the rich"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
       hero: "Robin Hood",
       type: "Attack",
       image: "a-hunter-s-eye-robin-hood.png",
-      cardName: "A Hunter's Eye"
+      cardName: "A hunter's eye"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
       hero: "Robin Hood",
       type: "Attack",
       image: "disarming-shot-robin-hood.png",
-      cardName: "Disarming Shot"
+      cardName: "Disarming shot"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -599,7 +599,7 @@ function App() {
       hero: "Robin Hood",
       type: "Attack",
       image: "piercing-shot-robin-hood.png",
-      cardName: "Piercing Shot"
+      cardName: "Piercing shot"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -613,7 +613,7 @@ function App() {
       hero: "Robin Hood",
       type: "Versatile",
       image: "wily-fighting-robin-hood.png",
-      cardName: "Wily Fighting"
+      cardName: "Wily fighting"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -641,7 +641,7 @@ function App() {
       hero: "Bigfoot",
       type: "Scheme",
       image: "jackalope-horns-bigfoot.png",
-      cardName: "Savagery"
+      cardName: "Jackalope horns"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -655,21 +655,21 @@ function App() {
       hero: "Bigfoot",
       type: "Defense",
       image: "it-s-just-your-imagination-bigfoot.png",
-      cardName: "It's Just Your Imagination"
+      cardName: "It's just your imagination"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
       hero: "Bigfoot",
       type: "Scheme",
       image: "crash-through-the-trees-bigfoot.png",
-      cardName: "Crash Through the Trees"
+      cardName: "Crash through the trees"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
       hero: "Bigfoot",
       type: "Attack",
       image: "larger-than-life-bigfoot.png",
-      cardName: "Larger than Life"
+      cardName: "Larger than life"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -683,7 +683,7 @@ function App() {
       hero: "Bigfoot",
       type: "Versatile",
       image: "momentous-shift-bigfoot.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Robin Hood vs. Bigfoot",
@@ -711,21 +711,21 @@ function App() {
       hero: "InGen",
       type: "Scheme",
       image: "remote-detonation-ingen.png",
-      cardName: "Remote Detonation"
+      cardName: "Remote detonation"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Scheme",
       image: "call-for-backup-ingen.png",
-      cardName: "Call for Backup"
+      cardName: "Call for backup"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Defense",
       image: "i-ve-hunted-most-things-that-can-hunt-you-ingen.png",
-      cardName: "I've Hunted Most Things That Can Hunt You"
+      cardName: "I've hunted most things that can hunt you"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
@@ -746,56 +746,56 @@ function App() {
       hero: "InGen",
       type: "Versatile",
       image: "tactical-advance-ingen.png",
-      cardName: "Tactical Feint"
+      cardName: "Tactical advance"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Versatile",
       image: "leap-away-ingen.png",
-      cardName: "Leap Away"
+      cardName: "Leap away"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Attack",
       image: "second-shot-2-ingen.png",
-      cardName: "Second Shot"
+      cardName: "Second shot"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Attack",
       image: "rending-shot-ingen.png",
-      cardName: "Rending Shot"
+      cardName: "Rending shot"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Attack",
       image: "shoot-her-ingen.png",
-      cardName: "Shoot Her!"
+      cardName: "Shoot her!"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "InGen",
       type: "Attack",
       image: "they-should-all-be-destroyed-ingen.png",
-      cardName: "They Should All Be Destroyed"
+      cardName: "They should all be destroyed"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "Raptors",
       type: "Scheme",
       image: "coordinated-attack-pattern-raptors.png",
-      cardName: "Coordinated Attack Pattern"
+      cardName: "Coordinated attack pattern"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "Raptors",
       type: "Scheme",
       image: "working-things-out-raptors.png",
-      cardName: "Working Things Out"
+      cardName: "Working things out"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
@@ -816,7 +816,7 @@ function App() {
       hero: "Raptors",
       type: "Versatile",
       image: "eaten-alive-raptors.png",
-      cardName: "Eaten Alive"
+      cardName: "Eaten alive"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
@@ -830,21 +830,21 @@ function App() {
       hero: "Raptors",
       type: "Attack",
       image: "they-remember-raptors.png",
-      cardName: "They Remember"
+      cardName: "They remember"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "Raptors",
       type: "Attack",
       image: "clever-girl-raptors.png",
-      cardName: "Clever Girl"
+      cardName: "Clever girl"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
       hero: "Raptors",
       type: "Attack",
       image: "pack-hunters-raptors.png",
-      cardName: "Pack Hunters"
+      cardName: "Pack hunters"
     }, {
       id: nanoid(),
       set: "InGen vs. Raptors",
@@ -865,28 +865,28 @@ function App() {
       hero: "Dracula",
       type: "Scheme",
       image: "ravening-seduction-dracula.png",
-      cardName: "Ravening Seduction"
+      cardName: "Ravening seduction"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dracula",
       type: "Scheme",
       image: "prey-upon-dracula.png",
-      cardName: "Prey Upon"
+      cardName: "Prey upon"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dracula",
       type: "Attack",
       image: "thirst-for-sustenance-dracula.png",
-      cardName: "Thirst for Sustenance"
+      cardName: "Thirst for sustenance"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dracula",
       type: "Scheme",
       image: "baptism-of-blood-dracula.png",
-      cardName: "Baptism of Blood"
+      cardName: "Baptism of blood"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -900,14 +900,14 @@ function App() {
       hero: "Dracula",
       type: "Defense",
       image: "look-into-my-eyes-dracula.png",
-      cardName: "Look into my Eyes"
+      cardName: "Look into my eyes"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dracula",
       type: "Defense",
       image: "do-my-bidding-dracula.png",
-      cardName: "Do my Bidding"
+      cardName: "Do my bidding"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -921,7 +921,7 @@ function App() {
       hero: "Dracula",
       type: "Attack",
       image: "feeding-frenzy-dracula.png",
-      cardName: "Feeding Frenzy"
+      cardName: "Feeding frenzy"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -956,7 +956,7 @@ function App() {
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Scheme",
       image: "pure-evil-jekyll&hyde.png",
-      cardName: "Pure Evil"
+      cardName: "Pure evil"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -970,21 +970,21 @@ function App() {
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Defense",
       image: "scientific-method-jekyll&hyde.png",
-      cardName: "Scientific Method"
+      cardName: "Scientific method"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Scheme",
       image: "calming-research-jekyll&hyde.png",
-      cardName: "Calming Research"
+      cardName: "Calming research"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Defense",
       image: "with-haste-jekyll&hyde.png",
-      cardName: "With Haste"
+      cardName: "With haste"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -998,28 +998,28 @@ function App() {
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Attack",
       image: "recoiling-blow-jekyll&hyde.png",
-      cardName: "Recoiling Blow"
+      cardName: "Recoiling blow"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Versatile",
       image: "madness-relents-jekyll&hyde.png",
-      cardName: "Madness Relents"
+      cardName: "Madness relents"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Versatile",
       image: "succumb-to-compulsion-jekyll&hyde.png",
-      cardName: "Succumb to Compulsion"
+      cardName: "Succumb to compulsion"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Dr. Jekyll & Mr. Hyde",
       type: "Versatile",
       image: "distracted-triage-jekyll&hyde.png",
-      cardName: "Distracted Triage"
+      cardName: "Distracted triage"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1047,28 +1047,28 @@ function App() {
       hero: "Invisible Man",
       type: "Scheme",
       image: "reign-of-terror-invisible-man.png",
-      cardName: "Reign of Terror"
+      cardName: "Reign of terror"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Scheme",
       image: "step-lightly-invisible-man.png",
-      cardName: "Step Lightly"
+      cardName: "Step lightly"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Versatile",
       image: "dreaming-of-revenge-invisible-man.png",
-      cardName: "Dreaming of Revenge"
+      cardName: "Dreaming of revenge"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Scheme",
       image: "rolling-fog-invisible-man.png",
-      cardName: "Rolling Fog"
+      cardName: "Rolling fog"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1082,14 +1082,14 @@ function App() {
       hero: "Invisible Man",
       type: "Defense",
       image: "coded-notes-invisible-man.png",
-      cardName: "Coded Notes"
+      cardName: "Coded notes"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Defense",
       image: "into-thin-air-invisible-man.png",
-      cardName: "Into Thin Air"
+      cardName: "Into thin air"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1103,28 +1103,28 @@ function App() {
       hero: "Invisible Man",
       type: "Attack",
       image: "emerge-from-mist-invisible-man.png",
-      cardName: "Emerge from Mist"
+      cardName: "Emerge from mist"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Attack",
       image: "slip-away-invisible-man.png",
-      cardName: "Slip Away"
+      cardName: "Slip away"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Attack",
       image: "surprise-attack-invisible-man.png",
-      cardName: "Surprise Attack"
+      cardName: "Surprise attack"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Invisible Man",
       type: "Versatile",
       image: "impossible-to-see-invisible-man.png",
-      cardName: "Impossible to See"
+      cardName: "Impossible to see"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1138,21 +1138,21 @@ function App() {
       hero: "Invisible Man",
       type: "Versatile",
       image: "covert-preparation-invisible-man.png",
-      cardName: "Covert Preparation"
+      cardName: "Covert preparation"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Scheme",
       image: "master-of-disguise-sherlock-holmes.png",
-      cardName: "Master of Disguise"
+      cardName: "Master of disguise"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Scheme",
       image: "confirm-suspicion-sherlock-holmes.png",
-      cardName: "Confirm Suspicion"
+      cardName: "Confirm suspicion"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1166,14 +1166,14 @@ function App() {
       hero: "Sherlock Holmes",
       type: "Scheme",
       image: "administer-aid-sherlock-holmes.png",
-      cardName: "Administer Aid"
+      cardName: "Administer aid"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Scheme",
       image: "eliminate-the-impossible-sherlock-holmes.png",
-      cardName: "Eliminate the Impossible"
+      cardName: "Eliminate the impossible"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1187,42 +1187,42 @@ function App() {
       hero: "Sherlock Holmes",
       type: "Attack",
       image: "service-revolver-sherlock-holmes.png",
-      cardName: "Service Revolver"
+      cardName: "Service revolver"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Attack",
       image: "the-game-is-afoot-sherlock-holmes.png",
-      cardName: "The Game is Afoot"
+      cardName: "The game is afoot"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Versatile",
       image: "fixed-point-in-a-changing-age-sherlock-holmes.png",
-      cardName: "Fixed Point in a Changing Age"
+      cardName: "Fixed point in a changing age"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Versatile",
       image: "deduce-strategy-sherlock-holmes.png",
-      cardName: "Deduce Strategy"
+      cardName: "Deduce strategy"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Versatile",
       image: "study-methods-sherlock-holmes.png",
-      cardName: "Study Methods"
+      cardName: "Study methods"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
       hero: "Sherlock Holmes",
       type: "Versatile",
       image: "education-never-ends-sherlock-holmes.png",
-      cardName: "Education Never Ends"
+      cardName: "Education never ends"
     }, {
       id: nanoid(),
       set: "Cobble & Fog",
@@ -1236,7 +1236,7 @@ function App() {
       hero: "Buffy",
       type: "Attack",
       image: "swift-strike-buffy.png",
-      cardName: "Swift Strike"
+      cardName: "Swift strike"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1271,7 +1271,7 @@ function App() {
       hero: "Buffy",
       type: "Versatile",
       image: "right-hand-man-buffy.png",
-      cardName: "Right-Hand Man"
+      cardName: "Right-hand man"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1285,7 +1285,7 @@ function App() {
       hero: "Buffy",
       type: "Versatile",
       image: "rapid-recovery-buffy.png",
-      cardName: "Rapid Recovery"
+      cardName: "Rapid recovery"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1306,14 +1306,14 @@ function App() {
       hero: "Buffy",
       type: "Attack",
       image: "military-knowledge-buffy.png",
-      cardName: "Military Knowledge"
+      cardName: "Military knowledge"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Buffy",
       type: "Attack",
       image: "daring-strike-buffy.png",
-      cardName: "Daring Strike"
+      cardName: "Daring strike"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1334,7 +1334,7 @@ function App() {
       hero: "Willow",
       type: "Scheme",
       image: "love-and-loss-willow.png",
-      cardName: "Love & Loss"
+      cardName: "Love & loss"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1376,42 +1376,42 @@ function App() {
       hero: "Willow",
       type: "Versatile",
       image: "black-magic-willow.png",
-      cardName: "Black Magic"
+      cardName: "Black magic"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Willow",
       type: "Versatile",
       image: "knowledge-of-the-craft-willow.png",
-      cardName: "Knowledge of the Craft"
+      cardName: "Knowledge of the craft"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Willow",
       type: "Attack",
       image: "rending-shot-willow.png",
-      cardName: "Rending Shot"
+      cardName: "Rending shot"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Willow",
       type: "Attack",
       image: "when-good-magic-fails-willow.png",
-      cardName: "When Good Magic Fails"
+      cardName: "When good magic fails"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Willow",
       type: "Attack",
       image: "flayed-alive-willow.png",
-      cardName: "Flayed Alive"
+      cardName: "Flayed alive"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Willow",
       type: "Attack",
       image: "swift-strike-willow.png",
-      cardName: "Swift Strike"
+      cardName: "Swift strike"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1425,14 +1425,14 @@ function App() {
       hero: "Angel",
       type: "Scheme",
       image: "killer-of-the-dead-angel.png",
-      cardName: "Killer of the Dead"
+      cardName: "Killer of the dead"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Angel",
-      type: "Attack",
+      type: "Defense",
       image: "haunted-by-the-faces-angel.png",
-      cardName: "Haunted by the Faces"
+      cardName: "Haunted by the faces"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1453,7 +1453,7 @@ function App() {
       hero: "Angel",
       type: "Versatile",
       image: "momentous-shift-angel.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1474,14 +1474,14 @@ function App() {
       hero: "Angel",
       type: "Attack",
       image: "wisdom-of-ages-angel.png",
-      cardName: "Wisdom of Ages"
+      cardName: "Wisdom of ages"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Angel",
       type: "Attack",
       image: "cursed-with-a-soul-angel.png",
-      cardName: "Cursed with a Soul"
+      cardName: "Cursed with a soul"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1502,7 +1502,7 @@ function App() {
       hero: "Spike",
       type: "Scheme",
       image: "seek-the-shadows-spike.png",
-      cardName: "Seek the Shadows"
+      cardName: "Seek the shadows"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1523,7 +1523,7 @@ function App() {
       hero: "Spike",
       type: "Versatile",
       image: "always-surprising-spike.png",
-      cardName: "Always Surprising"
+      cardName: "Always surprising"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1544,7 +1544,7 @@ function App() {
       hero: "Spike",
       type: "Versatile",
       image: "let-s-dance-spike.png",
-      cardName: "Let's Dance"
+      cardName: "Let's dance"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1558,14 +1558,14 @@ function App() {
       hero: "Spike",
       type: "Versatile",
       image: "leap-away-spike.png",
-      cardName: "Leap Away"
+      cardName: "Leap away"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
       hero: "Spike",
       type: "Attack",
       image: "the-rush-spike.png",
-      cardName: "The Rush"
+      cardName: "The rush"
     }, {
       id: nanoid(),
       set: "Buffy the Vampire Slayer",
@@ -1586,91 +1586,91 @@ function App() {
       hero: "Little Red",
       type: "Versatile",
       image: "once-upon-a-time-little-red.png",
-      cardName: "Once Upon a Time"
+      cardName: "Once upon a time"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Scheme",
       image: "never-leave-the-path-little-red.png",
-      cardName: "Never Leave the Path"
+      cardName: "Never leave the path"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Defense",
       image: "what-a-terrible-big-mouth-you-have-little-red.png",
-      cardName: "What a Terrible Big Mouth you Have"
+      cardName: "What a terrible big mouth you have"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Versatile",
       image: "what-s-that-in-my-basket-little-red.png",
-      cardName: "What't That in my Basket"
+      cardName: "What's that in my basket?"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Scheme",
       image: "into-the-woods-little-red.png",
-      cardName: "Into the Woods"
+      cardName: "Into the woods"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Versatile",
       image: "stones-in-the-belly-little-red.png",
-      cardName: "Stones in the Belly"
+      cardName: "Stones in the belly"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Scheme",
       image: "a-grimm-tale-little-red.png",
-      cardName: "A Grimm Tale"
+      cardName: "A Grimm tale"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Attack",
       image: "long-have-i-sought-you-little-red.png",
-      cardName: "Long Have I Sought You"
+      cardName: "Long have I sought you"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Defense",
       image: "the-wolf-s-skin-little-red.png",
-      cardName: "THe Wolf's Skin"
+      cardName: "THe Wolf's skin"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Versatile",
       image: "what-big-eyes-you-have-little-red.png",
-      cardName: "What Big Eyes You Have"
+      cardName: "What big eyes you have"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Attack",
       image: "what-big-ears-you-have-little-red.png",
-      cardName: "What Big Ears You Have"
+      cardName: "What big ears you have"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Little Red",
       type: "Attack",
       image: "what-large-hands-you-have-little-red.png",
-      cardName: "What Large Hands You Have"
+      cardName: "What large hands you have"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Scheme",
       image: "remnant-of-valor-beowulf.png",
-      cardName: "Remnant of Valor"
+      cardName: "Remnant of valor"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
@@ -1684,14 +1684,14 @@ function App() {
       hero: "Beowulf",
       type: "Attack",
       image: "fatal-struggle-beowulf.png",
-      cardName: "Fatal Struggle"
+      cardName: "Fatal struggle"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Scheme",
       image: "golden-drinking-horn-beowulf.png",
-      cardName: "Golden Drinking Horn"
+      cardName: "Golden drinking horn"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
@@ -1705,35 +1705,35 @@ function App() {
       hero: "Beowulf",
       type: "Versatile",
       image: "the-war-king-beowulf.png",
-      cardName: "The War King"
+      cardName: "The War-King"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Attack",
       image: "no-contest-expecteth-beowulf.png",
-      cardName: "No Contest Expecteth"
+      cardName: "No contest expecteth"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Attack",
       image: "epic-poem-beowulf.png",
-      cardName: "Epic Poem"
+      cardName: "Epic poem"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Attack",
       image: "hot-for-battle-beowulf.png",
-      cardName: "Hot for Battle"
+      cardName: "Hot for battle"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
       hero: "Beowulf",
       type: "Attack",
       image: "the-ancient-heirloom-beowulf.png",
-      cardName: "THe Ancient Heirloom"
+      cardName: "The Ancient Heirloom"
     }, {
       id: nanoid(),
       set: "Little Red Riding Hood vs. Beowulf",
@@ -1789,21 +1789,21 @@ function App() {
       hero: "Deadpool",
       type: "Defense",
       image: "eat-me-deadpool.jpg",
-      cardName: "Eat Me"
+      cardName: "Eat me"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Defense",
       image: "transit-card-deadpool.png",
-      cardName: "Transit Card"
+      cardName: "Transit card"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Defense",
       image: "they-have-an-amazing-buffet-deadpool.png",
-      cardName: "They Have An Amazing Buffet"
+      cardName: "They have an amazing buffet"
     }, {
       id: nanoid(),
       set: "Deadpool",
@@ -1824,14 +1824,14 @@ function App() {
       hero: "Deadpool",
       type: "Versatile",
       image: "push-to-teleport-deadpool.png",
-      cardName: "Push to Teleport"
+      cardName: "Push to teleport"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Versatile",
       image: "i-m-not-wearing-pants-deadpool.png",
-      cardName: "I'm Not Wearing Pants"
+      cardName: "I'm not wearing pants"
     }, {
       id: nanoid(),
       set: "Deadpool",
@@ -1845,35 +1845,35 @@ function App() {
       hero: "Deadpool",
       type: "Versatile",
       image: "chimichanga-break-deadpool.png",
-      cardName: "Chimichanga Break!"
+      cardName: "Chimichanga break!"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Versatile",
       image: "and-for-my-next-move-deadpool.png",
-      cardName: "And for my Next Move..."
+      cardName: "And for my next move..."
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Versatile",
       image: "call-me-deadpool.png",
-      cardName: "Call Me"
+      cardName: "Call me"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Versatile",
       image: "i-always-get-the-last-word-deadpool.png",
-      cardName: "I Always get the Last Word"
+      cardName: "I always get the last word"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Versatile",
       image: "gimme-gimme-chimichanga-deadpool.png",
-      cardName: "Gimme Gimme Chimichanga"
+      cardName: "Gimme gimme chimichanga"
     }, {
       id: nanoid(),
       set: "Deadpool",
@@ -1894,35 +1894,35 @@ function App() {
       hero: "Deadpool",
       type: "Attack",
       image: "cha-ching-deadpool.png",
-      cardName: "Cha-Ching!"
+      cardName: "Cha-ching!"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Attack",
       image: "exploding-card-deadpool.png",
-      cardName: "Exploding Card"
+      cardName: "Exploding card"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Attack",
       image: "gaze-of-stone-deadpool.png",
-      cardName: "Gaze of Stone"
+      cardName: "Gaze of stone"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Attack",
       image: "wanna-bet-deadpool.png",
-      cardName: "Wanna Bet?"
+      cardName: "Wanna bet?"
     }, {
       id: nanoid(),
       set: "Deadpool",
       hero: "Deadpool",
       type: "Attack",
       image: "excuse-me-while-i-grow-some-limbs-deadpool.png",
-      cardName: "Excuse Me While I Grow Some Limbs"
+      cardName: "Excuse me while I grow some limbs"
     }, {
       id: nanoid(),
       set: "Deadpool",
@@ -1971,7 +1971,7 @@ function App() {
       hero: "Sun Wukong",
       type: "Scheme",
       image: "fiery-eyes-that-see-sun-wukong.png",
-      cardName: "Fiery Eyes that See"
+      cardName: "Fiery eyes that see"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -1999,7 +1999,7 @@ function App() {
       hero: "Sun Wukong",
       type: "Versatile",
       image: "sly-monkey-sun-wukong.png",
-      cardName: "Sly Monkey"
+      cardName: "Sly monkey"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2013,7 +2013,7 @@ function App() {
       hero: "Sun Wukong",
       type: "Versatile",
       image: "wily-fighting-sun-wukong.png",
-      cardName: "Wily Fighting"
+      cardName: "Wily fighting"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2027,14 +2027,14 @@ function App() {
       hero: "Sun Wukong",
       type: "Attack",
       image: "infinite-strikes-sun-wukong.png",
-      cardName: "Infinite Strikes"
+      cardName: "Infinite strikes"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Sun Wukong",
       type: "Attack",
       image: "taunting-laughter-sun-wukong.png",
-      cardName: "Taunting Laughter"
+      cardName: "Taunting laughter"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2048,35 +2048,35 @@ function App() {
       hero: "Yennenga",
       type: "Scheme",
       image: "one-with-the-land-yennenga.png",
-      cardName: "One with the Land"
+      cardName: "One with the land"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
-      type: "Versatile",
+      type: "Scheme",
       image: "master-of-the-hunt-yennenga.png",
-      cardName: "Master of the Hunt"
+      cardName: "Master of the hunt"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Defense",
       image: "shield-formation-yennenga.png",
-      cardName: "Shield Formation"
+      cardName: "Shield formation"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Versatile",
       image: "pin-the-prey-yennenga.png",
-      cardName: "Pin the Prey"
+      cardName: "Pin the prey"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Versatile",
       image: "point-blank-yennenga.png",
-      cardName: "Point Blank"
+      cardName: "Point blank"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2090,21 +2090,21 @@ function App() {
       hero: "Yennenga",
       type: "Versatile",
       image: "stallion-charge-yennenga.png",
-      cardName: "Stallion Charge"
+      cardName: "Stallion charge"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Versatile",
       image: "momentous-shift-yennenga.png",
-      cardName: "Momentous Shift"
+      cardName: "Momentous shift"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Versatile",
       image: "jaws-of-the-beast-yennenga.png",
-      cardName: "Jaws of the Beast"
+      cardName: "Jaws of the beast"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2118,35 +2118,35 @@ function App() {
       hero: "Yennenga",
       type: "Attack",
       image: "rain-of-arrows-yennenga.png",
-      cardName: "Rain of Arrows"
+      cardName: "Rain of arrows"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Yennenga",
       type: "Attack",
       image: "surprise-volley-yennenga.png",
-      cardName: "Surprise Volley"
+      cardName: "Surprise volley"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Scheme",
       image: "closer-than-she-appears-bloody-mary.png",
-      cardName: "Closer than She Appears"
+      cardName: "Closer than she appears"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Scheme",
       image: "stolen-memories-bloody-mary.png",
-      cardName: "Stolen Memories"
+      cardName: "Stolen memories"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Defense",
       image: "mirror-image-bloody-mary.png",
-      cardName: "Mirror Image"
+      cardName: "Mirror image"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2160,63 +2160,63 @@ function App() {
       hero: "Bloody Mary",
       type: "Versatile",
       image: "trick-of-the-light-bloody-mary.png",
-      cardName: "Trick of the Light"
+      cardName: "Trick of the light"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Versatile",
       image: "feint-bloody-mary.png",
-      cardName: "feint"
+      cardName: "Feint"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Versatile",
       image: "jump-scare-bloody-mary.png",
-      cardName: "Jump Scare"
+      cardName: "Jump scare"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Versatile",
       image: "broken-glass-bloody-mary.png",
-      cardName: "Broken Glass"
+      cardName: "Broken glass"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Versatile",
       image: "infinity-mirror-bloody-mary.png",
-      cardName: "Infinity Mirror"
+      cardName: "Infinity mirror"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Attack",
       image: "ghostly-touch-bloody-mary.png",
-      cardName: "Ghostly Touch"
+      cardName: "Ghostly touch"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Attack",
       image: "out-of-the-mirror-bloody-mary.png",
-      cardName: "Out of the Mirror"
+      cardName: "Out of the mirror"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Attack",
       image: "bloody-requiem-bloody-mary.png",
-      cardName: "Bloody Requiem"
+      cardName: "Bloody requiem"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Bloody Mary",
       type: "Attack",
       image: "speak-three-times-bloody-mary.png",
-      cardName: "Speak Three Times"
+      cardName: "Speak three times"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2230,21 +2230,21 @@ function App() {
       hero: "Achilles",
       type: "Scheme",
       image: "spear-throw-achilles.png",
-      cardName: "Spear Throw"
+      cardName: "Spear throw"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Achilles",
       type: "Defense",
       image: "under-achilles-helm-achilles.png",
-      cardName: "Under Achilles' Helm"
+      cardName: "Under Achilles' helm"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Achilles",
       type: "Versatile",
       image: "battle-hardened-achilles.png",
-      cardName: "Battle Hardened"
+      cardName: "Battle hardened"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2265,7 +2265,7 @@ function App() {
       hero: "Achilles",
       type: "Versatile",
       image: "wily-fighting-achilles.png",
-      cardName: "Wily Fighting"
+      cardName: "Wily fighting"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2279,7 +2279,7 @@ function App() {
       hero: "Achilles",
       type: "Attack",
       image: "test-for-weakness-achilles.png",
-      cardName: "Test for Weakness"
+      cardName: "Test for weakness"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
@@ -2293,35 +2293,35 @@ function App() {
       hero: "Achilles",
       type: "Attack",
       image: "battle-frenzy-achilles.png",
-      cardName: "Battle Frenzy"
+      cardName: "Battle frenzy"
     }, {
       id: nanoid(),
       set: "Battle of Legends v2",
       hero: "Achilles",
       type: "Attack",
       image: "brothers-in-arms-achilles.png",
-      cardName: "Brothers in Arms"
+      cardName: "Brothers in arms"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Scheme",
       image: "wheres-my-money-luke-cage.png",
-      cardName: "Where's My Money?"
+      cardName: "Where's my money?"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Defense",
       image: "skin-like-titanium-luke-cage.png",
-      cardName: "Skin Like Titanium"
+      cardName: "Skin like titanium"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Defense",
       image: "got-my-back-luke-cage.png",
-      cardName: "Got My Back?"
+      cardName: "Got my back?"
     }, {
       id: nanoid(),
       set: "Redemption Row",
@@ -2335,7 +2335,7 @@ function App() {
       hero: "Luke Cage",
       type: "Defense",
       image: "trash-talk-luke-cage.png",
-      cardName: "Trash Talk"
+      cardName: "Trash talk"
     }, {
       id: nanoid(),
       set: "Redemption Row",
@@ -2363,28 +2363,28 @@ function App() {
       hero: "Luke Cage",
       type: "Attack",
       image: "hero-for-hire-luke-cage.png",
-      cardName: "Hero for Hire"
+      cardName: "Hero for hire"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Attack",
       image: "still-standing-luke-cage.png",
-      cardName: "Still Standing"
+      cardName: "Still standing"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Attack",
       image: "get-paid-luke-cage.png",
-      cardName: "Get Paid"
+      cardName: "Get paid"
     }, {
       id: nanoid(),
       set: "Redemption Row",
       hero: "Luke Cage",
       type: "Attack",
       image: "commanding-impact-luke-cage.png",
-      cardName: "Commanding Impact"
+      cardName: "Commanding impact"
     }, {
       id: nanoid(),
       set: "Redemption Row",
@@ -2433,7 +2433,7 @@ function App() {
       hero: "Moon Knight",
       type: "Versatile",
       image: "past-and-present-intermingle-moon-knight.png",
-      cardName: "Past and present intermingle"
+      cardName: "Past and Present intermingle"
     }, {
       id: nanoid(),
       set: "Redemption Row",
@@ -2462,6 +2462,13 @@ function App() {
       type: "Versatile",
       image: "good-enough-for-us-moon-knight.png",
       cardName: "Good enough for us"
+    }, {
+      id: nanoid(),
+      set: "Redemption Row",
+      hero: "Moon Knight",
+      type: "Attack",
+      image: "im-not-real-moon-knight.png",
+      cardName: "I'm not real"
     }, {
       id: nanoid(),
       set: "Redemption Row",
@@ -2573,7 +2580,7 @@ function App() {
       hero: "Daredevil",
       type: "Defense",
       image: "son-of-a-boxer-daredevil.png",
-      cardName: "Son of a boxer"
+      cardName: "Son of a Boxer"
     }, {
       id: nanoid(),
       set: "Hell's Kitchen",
@@ -2587,7 +2594,7 @@ function App() {
       hero: "Daredevil",
       type: "Versatile",
       image: "grappling-hook-daredevil.png",
-      cardName: "Grappling Hook"
+      cardName: "Grappling hook"
     }, {
       id: nanoid(),
       set: "Hell's Kitchen",
@@ -2719,6 +2726,13 @@ function App() {
       set: "Hell's Kitchen",
       hero: "Bullseye",
       type: "Versatile",
+      image: "right-between-the-eyes-bullseye.png",
+      cardName: "Right between the eyes"
+    }, {
+      id: nanoid(),
+      set: "Hell's Kitchen",
+      hero: "Bullseye",
+      type: "Versatile",
       image: "master-strategist-bullseye.png",
       cardName: "Master strategist"
     }, {
@@ -2832,7 +2846,7 @@ function App() {
       hero: "Dr. Ellie Sattler",
       type: "Versatile",
       image: "violently-if-necessary-dr-sattler.png",
-      cardName: "Violently if necessary"
+      cardName: "Violently, if necessary"
     }, {
       id: nanoid(),
       set: "Sattler vs. T-Rex",
@@ -2867,7 +2881,7 @@ function App() {
       hero: "T-Rex",
       type: "Scheme",
       image: "65-million-years-of-gut-instinct-t-rex.png",
-      cardName: "65 Million years of gut instinct"
+      cardName: "65 million years of gut instinct"
     }, {
       id: nanoid(),
       set: "Sattler vs. T-Rex",
@@ -2909,7 +2923,7 @@ function App() {
       hero: "T-Rex",
       type: "Attack",
       image: "when-dinosaurs-ruled-the-earth-t-rex.png",
-      cardName: "When dinosaurs ruled the earth"
+      cardName: "When Dinosaurs ruled the Earth"
     }, {
       id: nanoid(),
       set: "Sattler vs. T-Rex",
@@ -2951,7 +2965,7 @@ function App() {
       hero: "Harry Houdini",
       type: "Versatile",
       image: "and-the-beautiful-bess-houdini.png",
-      cardName: "And the Beautiful Bess"
+      cardName: "And the Beautiful Bess!"
     }, {
       id: nanoid(),
       set: "Houdini vs. The Genie",
@@ -2965,7 +2979,7 @@ function App() {
       hero: "Harry Houdini",
       type: "Scheme",
       image: "a-magician-never-reveals-his-secrets-houdini.png",
-      cardName: "A magicial never reveals his secrets"
+      cardName: "A magician never reveals his secrets"
     }, {
       id: nanoid(),
       set: "Houdini vs. The Genie",
@@ -2986,7 +3000,7 @@ function App() {
       hero: "Harry Houdini",
       type: "Versatile",
       image: "smoke-and-mirrors-houdini.png",
-      cardName: "Smoke and mirrors"
+      cardName: "Smoke and Mirrors"
     }, {
       id: nanoid(),
       set: "Houdini vs. The Genie",
@@ -3042,7 +3056,7 @@ function App() {
       hero: "The Genie",
       type: "Versatile",
       image: "i-grant-you-death-genie.png",
-      cardName: "I grant you death"
+      cardName: "I grant you... death"
     }, {
       id: nanoid(),
       set: "Houdini vs. The Genie",
@@ -3098,7 +3112,7 @@ function App() {
       hero: "The Genie",
       type: "Defense",
       image: "back-in-the-lamp-genie.png",
-      cardName: "Mack in the lamp"
+      cardName: "Back in the lamp"
     }, {
       id: nanoid(),
       set: "Houdini vs. The Genie",
@@ -3119,7 +3133,7 @@ function App() {
       hero: "Ms. Marvel",
       type: "Scheme",
       image: "friends-and-family-ms-marvel.png",
-      cardName: "Friends and family"
+      cardName: "Friends and Family"
     }, {
       id: nanoid(),
       set: "Teen Spirit",
@@ -3196,7 +3210,7 @@ function App() {
       hero: "Cloak & Dagger",
       type: "Defense",
       image: "living-shadow-cloak&dagger.png",
-      cardName: "Living shadow"
+      cardName: "Living Shadow"
     }, {
       id: nanoid(),
       set: "Teen Spirit",
@@ -3224,7 +3238,7 @@ function App() {
       hero: "Cloak & Dagger",
       type: "Versatile",
       image: "the-living-light-cloak&dagger.png",
-      cardName: "The living light"
+      cardName: "The Living Light"
     }, {
       id: nanoid(),
       set: "Teen Spirit",
@@ -3728,7 +3742,7 @@ function App() {
       hero: "Spider-Man",
       type: "Scheme",
       image: "friendly-neighborhood-spider-man-spider-man.png",
-      cardName: "Friendly neighborhood Spider-Man"
+      cardName: "Friendly Neighborhood Spider-Man"
     }, {
       id: nanoid(),
       set: "Brains and Brawn",
@@ -3742,14 +3756,14 @@ function App() {
       hero: "Spider-Man",
       type: "Defense",
       image: "counter-attack-spider-man.png",
-      cardName: "Counter attack"
+      cardName: "Counter-attack"
     }, {
       id: nanoid(),
       set: "Brains and Brawn",
       hero: "Spider-Man",
       type: "Versatile",
       image: "spider-sense-tingling-spider-man.png",
-      cardName: "Spider-Seinse tingling!"
+      cardName: "Spider-Sense tingling!"
     }, {
       id: nanoid(),
       set: "Brains and Brawn",
@@ -3777,7 +3791,7 @@ function App() {
       hero: "Spider-Man",
       type: "Versatile",
       image: "right-in-the-face-spider-man.png",
-      cardName: "Right in the face"
+      cardName: "Right in the face!"
     }, {
       id: nanoid(),
       set: "Brains and Brawn",
@@ -3840,7 +3854,7 @@ function App() {
       hero: "She-Hulk",
       type: "Versatile",
       image: "cease-and-desist-she-hulk.png",
-      cardName: "Ceace and desist"
+      cardName: "Ceace and Desist"
     }, {
       id: nanoid(),
       set: "Brains and Brawn",
@@ -3931,7 +3945,7 @@ function App() {
       hero: "Nikola Tesla",
       type: "Versatile",
       image: "lightning-storm-tesla.png",
-      cardName: "Lightning-storm"
+      cardName: "Lightning storm"
     }, {
       id: nanoid(),
       set: "Tales to Amaze",
@@ -3952,7 +3966,7 @@ function App() {
       hero: "Nikola Tesla",
       type: "Attack",
       image: "7-hertz-tesla.png",
-      cardName: "7-hertz"
+      cardName: "7 hertz"
     }, {
       id: nanoid(),
       set: "Tales to Amaze",
@@ -4351,7 +4365,7 @@ function App() {
       hero: "Tomoe Gozen",
       type: "Attack",
       image: "a-warriors-way-tomoe-gozen.png",
-      cardName: "A warrior's way"
+      cardName: "A Warrior's Way"
     }, {
       id: nanoid(),
       set: "Sun's Origin",
@@ -4463,7 +4477,7 @@ function App() {
       hero: "William Shakespeare",
       type: "Versatile",
       image: "alas-shakespeare.png",
-      cardName: "alas"
+      cardName: "Alas"
     }, {
       id: nanoid(),
       set: "Slings and Arrows",
@@ -4491,7 +4505,7 @@ function App() {
       hero: "William Shakespeare",
       type: "Attack",
       image: "my-kingdom-for-a-horse-shakespeare.png",
-      cardName: "Again"
+      cardName: "My Kingdom for a horse"
     }, {
       id: nanoid(),
       set: "Slings and Arrows",
@@ -4519,7 +4533,7 @@ function App() {
       hero: "Hamlet",
       type: "Defense",
       image: "the-rest-is-silence-hamlet.png",
-      cardName: "The rest is sicence"
+      cardName: "The rest is silence"
     }, {
       id: nanoid(),
       set: "Slings and Arrows",
@@ -4657,7 +4671,7 @@ function App() {
       id: nanoid(),
       set: "Slings and Arrows",
       hero: "Titania",
-      type: "Attack",
+      type: "Scheme",
       image: "a-momentary-glance-titania.png",
       cardName: "A momentary glance"
     }, {
@@ -4666,7 +4680,7 @@ function App() {
       hero: "Wayward Sisters",
       type: "Attack",
       image: "double-double-wayward-sisters.png",
-      cardName: "Double Double"
+      cardName: "Double, Double"
     }, {
       id: nanoid(),
       set: "Slings and Arrows",
@@ -4813,7 +4827,7 @@ function App() {
       hero: "Geralt of Rivia",
       type: "Versatile",
       image: "damn-youre-ugly-geralt.png",
-      cardName: "Damn you're ugly"
+      cardName: "Damn, you're ugly"
     }, {
       id: nanoid(),
       set: "Steel and Silver",
@@ -4995,7 +5009,7 @@ function App() {
       hero: "Ancient Leshen",
       type: "Attack",
       image: "primeval-slam-ancient-leshen.png",
-      cardName: "Vanish into murder"
+      cardName: "Primeval slam"
     }, {
       id: nanoid(),
       set: "Steel and Silver",
@@ -5058,7 +5072,7 @@ function App() {
       hero: "Yennefer & Triss",
       type: "Attack",
       image: "echoing-blast-yennefer&triss.png",
-      cardName: "Echoing-blast"
+      cardName: "Echoing blast"
     }, {
       id: nanoid(),
       set: "Realm's Fall",
@@ -5161,14 +5175,14 @@ function App() {
       id: nanoid(),
       set: "Realm's Fall",
       hero: "Philippa",
-      type: "Attack",
+      type: "Scheme",
       image: "backup-plan-philippa.png",
       cardName: "Backup plan"
     }, {
       id: nanoid(),
       set: "Realm's Fall",
       hero: "Philippa",
-      type: "Attack",
+      type: "Defense",
       image: "do-my-bidding-philippa.png",
       cardName: "Do my bidding"
     }, {
@@ -5306,22 +5320,16 @@ function App() {
   
   return (
     <div className='container'>
-      <div className='row' id='allCards'>
-        <h3>Current Cards</h3>
-        {searchResults && searchResults.map((card) => (
-        <div className='col-lg-2' key={card.id}>
-          <Card card = {card} removeCard = {removeCard} updateCard = {updateCard} />
-        </div>)
-        )}
-      </div>
+
 
       {/*!allCards && <button type='button' className='btn btn-lg btn-success' onClick={() => setAllCards(cards)}>Save Cards</button>*/}
       <AddCard addCard={addCard} />
+      
       <div className='row mt-4' id='searchCards'>
         <h3>Search Cards</h3>
         <div className='col-md-4'>
-          <label htmlFor="txtKeywords" className=''>Search by First or Last Name</label>
-          <input type="text" className='form-control' placeholder='Search First or Last Name' id="txtKeywords" onChange={e => setKeywords(e.currentTarget.value)} value={keywords} />
+          <label htmlFor="txtKeywords" className=''>Search by Hero Name or Card Type</label>
+          <input type="text" className='form-control' placeholder='Search Hero Name or Card Type' id="txtKeywords" onChange={e => setKeywords(e.currentTarget.value)} value={keywords} />
         </div>
         <div className='col-md-4'>
           <label htmlFor="formSet" className=''>Search by Set</label>
@@ -5334,6 +5342,16 @@ function App() {
           <button type="button" className='btn btn-lg btn-primary' onClick={searchCards} id='searchBtn'>Search Cards <FontAwesomeIcon icon={faMagnifyingGlass} /></button>
         </div>
       </div>
+
+      <div className='row' id='allCards'>
+        <h3>Unmatched Cards List</h3>
+        {searchResults && searchResults.map((card) => (
+        <div className='col-lg-2 col-md-3 col-sm-6' key={card.id}>
+          <Card card = {card} removeCard = {removeCard} updateCard = {updateCard} />
+        </div>)
+        )}
+      </div>
+
     </div>
 
   )

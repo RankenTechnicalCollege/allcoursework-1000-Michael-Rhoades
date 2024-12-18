@@ -20,7 +20,7 @@ const AddCard = (props) => {
       'hero': hero, 
       'type': type, 
       'image': URL.createObjectURL(selectedFile),
-      'cardName': parseInt(cardName)
+      'cardName': cardName
     }
     props.addCard(newCard)
   }
@@ -32,20 +32,20 @@ const AddCard = (props) => {
     <div className='row mt-5' id='addCard'>
       <h3>Add Card</h3>
       <div className='col-md-2'>
-        <label htmlFor="txtSet" className='form-label'>First Name</label>
-        <input type="text" id='txtSet' placeholder='First Name' className='form-control' onChange={(event) => setSet(event.currentTarget.value)} value={set} />
+        <label htmlFor="txtSet" className='form-label'>Set</label>
+        <input type="text" id='txtSet' placeholder='Set Name' className='form-control' onChange={(event) => setSet(event.currentTarget.value)} value={set} />
       </div>
       <div className='col-md-2'>
-        <label htmlFor="txtHero" className='form-label'>Last Name</label>
-        <input type="text" id='txtHero' placeholder='Last Name' className='form-control' onChange={(event) => setHero(event.currentTarget.value)} value={hero} />
+        <label htmlFor="txtHero" className='form-label'>Hero</label>
+        <input type="text" id='txtHero' placeholder='Hero Name' className='form-control' onChange={(event) => setHero(event.currentTarget.value)} value={hero} />
       </div>
       <div className='col-md-2'>
-        <label htmlFor="txtType" className='form-label'>Type Address</label>
-        <input type="text" id='txtType' placeholder='Type Address' className='form-control' onChange={(event) => setType(event.currentTarget.value)} value={type} />
+        <label htmlFor="txtType" className='form-label'>Type</label>
+        <input type="text" id='txtType' placeholder='Type' className='form-control' onChange={(event) => setType(event.currentTarget.value)} value={type} />
       </div>
       <div className='col-md-2'>
-        <label htmlFor="txtCardName" className='form-label'>Graduation Year</label>
-        <input type="text" id='txtCardName' placeholder='2024' className='form-control' onChange={(event) => setCardName(event.currentTarget.value)} value={cardName} />
+        <label htmlFor="txtCardName" className='form-label'>Card Name</label>
+        <input type="text" id='txtCardName' placeholder='Card Name' className='form-control' onChange={(event) => setCardName(event.currentTarget.value)} value={cardName} />
       </div>
       <div className='col-md-2'>
         <label htmlFor="fileUpload" className='form-label'>Card Image</label>
